@@ -1,0 +1,100 @@
+{
+  "native_vs_runner": [
+    {
+      "inference_ms": 168.9899199999445,
+      "max_abs_diff_from_official_runner": 0.0
+    },
+    {
+      "inference_ms": 167.20587999998315,
+      "max_abs_diff_from_official_runner": 0.0
+    },
+    {
+      "inference_ms": 167.18772000001536,
+      "max_abs_diff_from_official_runner": 0.0
+    }
+  ],
+  "detections": [
+    {
+      "class_id": 3,
+      "class_name": "1_Blue",
+      "confidence": 0.8125,
+      "center": [
+        90.5,
+        134.21
+      ],
+      "center_normalized": [
+        0.459375,
+        0.758227
+      ],
+      "offset_from_image_center": [
+        -7.5,
+        46.21
+      ],
+      "bbox_xyxy": [
+        61.56,
+        126.2,
+        119.43,
+        142.21
+      ],
+      "keypoints": [
+        [
+          61.56,
+          126.82
+        ],
+        [
+          61.25,
+          140.36
+        ],
+        [
+          119.43,
+          140.98
+        ],
+        [
+          119.43,
+          126.2
+        ]
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "1_Blue",
+      "confidence": 0.5,
+      "center": [
+        172.38,
+        121.28
+      ],
+      "center_normalized": [
+        0.875,
+        0.685187
+      ],
+      "offset_from_image_center": [
+        74.38,
+        33.28
+      ],
+      "bbox_xyxy": [
+        165.6,
+        110.81,
+        179.15,
+        131.74
+      ],
+      "keypoints": [
+        [
+          166.22,
+          120.05
+        ],
+        [
+          171.14,
+          132.36
+        ],
+        [
+          178.53,
+          121.89
+        ],
+        [
+          174.84,
+          110.2
+        ]
+      ]
+    }
+  ]
+}
