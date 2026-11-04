@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "images": 8,
+    "images_with_detection": 8,
+    "total_detections": 10,
+    "minimum_cosine_to_onnx": 0.9997795641157473,
+    "mean_cosine_to_onnx": 0.999852475607292,
+    "has_board_speed_test": false
+  },
+  "balanced": {
+    "images": 8,
+    "images_with_detection": 8,
+    "total_detections": 10,
+    "minimum_cosine_to_onnx": 0.9997789455730223,
+    "mean_cosine_to_onnx": 0.9998518152502917,
+    "has_board_speed_test": false
+  },
+  "fast": {
+    "images": 8,
+    "images_with_detection": 7,
+    "total_detections": 9,
+    "minimum_cosine_to_onnx": 0.99979383525185,
+    "mean_cosine_to_onnx": 0.9998540055135074,
+    "has_board_speed_test": false
+  }
+}

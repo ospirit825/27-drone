@@ -1,0 +1,69 @@
+{
+  "platform": "SG2002 / cv181x",
+  "toolchain": "TPU-MLIR 1.7 (v1.7-20240419)",
+  "cvimodel_version": "1.4.0",
+  "quantization": "INT8 with 77 explicitly selected BF16 operation names",
+  "calibration_images": 50,
+  "input": {
+    "name": "images",
+    "dtype": "float32",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "format": "RGB NCHW",
+    "normalization": "divide by 255",
+    "resize": "letterbox: int(width*ratio), int(height*ratio); centered padding, value 114"
+  },
+  "output": {
+    "name": "output0_Concat_f32",
+    "dtype": "float32",
+    "runtime_shape": [
+      1,
+      36,
+      8400,
+      1
+    ],
+    "logical_shape": [
+      1,
+      36,
+      8400
+    ],
+    "channels": "4 box xywh + 24 class scores + 8 keypoint xy values; end2end=False, NMS required"
+  },
+  "classes": {
+    "0": "G_Blue",
+    "1": "G_Red",
+    "2": "G_N",
+    "3": "1_Blue",
+    "4": "1_Red",
+    "5": "1_N",
+    "6": "2_Blue",
+    "7": "2_Red",
+    "8": "2_N",
+    "9": "3_Blue",
+    "10": "3_Red",
+    "11": "3_N",
+    "12": "4_Blue",
+    "13": "4_Red",
+    "14": "4_N",
+    "15": "5_Blue",
+    "16": "5_Red",
+    "17": "5_N",
+    "18": "O_Blue",
+    "19": "O_Red",
+    "20": "Bs_Blue",
+    "21": "Bs_Red",
+    "22": "Bb_Blue",
+    "23": "Bb_Red"
+  },
+  "keypoint_shape": [
+    4,
+    2
+  ],
+  "ion_memory_reported": "13.20 MB",
+  "onnx_sha256": "b26681e3442e9d0308f34eb6d29d8333f21fe00d0ba526d20015e10befffe007",
+  "note": "New mixed precision candidates; simulator checked; not board benchmarked. See model_manifest.json."
+}

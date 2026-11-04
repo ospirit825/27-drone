@@ -1,0 +1,1995 @@
+[
+  {
+    "image": "calib_0000.jpg",
+    "reference_detections": [
+      {
+        "class_id": 3,
+        "class_name": "1_Blue",
+        "confidence": 0.80204,
+        "center": [
+          90.44,
+          133.6
+        ],
+        "center_normalized": [
+          0.459067,
+          0.754822
+        ],
+        "offset_from_image_center": [
+          -7.56,
+          45.6
+        ],
+        "bbox_xyxy": [
+          61.56,
+          125.12,
+          119.31,
+          142.09
+        ],
+        "keypoints": [
+          [
+            61.94,
+            126.46
+          ],
+          [
+            61.68,
+            140.68
+          ],
+          [
+            119.38,
+            140.78
+          ],
+          [
+            119.12,
+            126.34
+          ]
+        ]
+      },
+      {
+        "class_id": 3,
+        "class_name": "1_Blue",
+        "confidence": 0.661461,
+        "center": [
+          172.27,
+          121.42
+        ],
+        "center_normalized": [
+          0.874455,
+          0.685987
+        ],
+        "offset_from_image_center": [
+          74.27,
+          33.42
+        ],
+        "bbox_xyxy": [
+          165.43,
+          110.33,
+          179.11,
+          132.51
+        ],
+        "keypoints": [
+          [
+            166.31,
+            120.07
+          ],
+          [
+            170.51,
+            132.17
+          ],
+          [
+            178.17,
+            121.3
+          ],
+          [
+            174.56,
+            110.51
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9999490950634717,
+        "detections": [
+          {
+            "class_id": 3,
+            "class_name": "1_Blue",
+            "confidence": 0.8125,
+            "center": [
+              90.5,
+              134.21
+            ],
+            "center_normalized": [
+              0.459375,
+              0.758227
+            ],
+            "offset_from_image_center": [
+              -7.5,
+              46.21
+            ],
+            "bbox_xyxy": [
+              62.79,
+              126.2,
+              118.2,
+              142.21
+            ],
+            "keypoints": [
+              [
+                61.87,
+                126.2
+              ],
+              [
+                61.56,
+                140.36
+              ],
+              [
+                119.43,
+                140.98
+              ],
+              [
+                118.82,
+                126.2
+              ]
+            ]
+          },
+          {
+            "class_id": 3,
+            "class_name": "1_Blue",
+            "confidence": 0.574219,
+            "center": [
+              172.38,
+              122.51
+            ],
+            "center_normalized": [
+              0.875,
+              0.692143
+            ],
+            "offset_from_image_center": [
+              74.38,
+              34.51
+            ],
+            "bbox_xyxy": [
+              166.22,
+              111.43,
+              178.53,
+              133.59
+            ],
+            "keypoints": [
+              [
+                166.22,
+                120.66
+              ],
+              [
+                171.14,
+                132.36
+              ],
+              [
+                178.53,
+                121.89
+              ],
+              [
+                174.84,
+                110.81
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -30.5,
+          652.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.9999448667461842,
+        "detections": [
+          {
+            "class_id": 3,
+            "class_name": "1_Blue",
+            "confidence": 0.8125,
+            "center": [
+              91.11,
+              134.21
+            ],
+            "center_normalized": [
+              0.4625,
+              0.758227
+            ],
+            "offset_from_image_center": [
+              -6.89,
+              46.21
+            ],
+            "bbox_xyxy": [
+              62.79,
+              124.97,
+              119.43,
+              143.44
+            ],
+            "keypoints": [
+              [
+                62.18,
+                126.2
+              ],
+              [
+                61.56,
+                140.36
+              ],
+              [
+                118.82,
+                140.98
+              ],
+              [
+                118.82,
+                126.2
+              ]
+            ]
+          },
+          {
+            "class_id": 3,
+            "class_name": "1_Blue",
+            "confidence": 0.644531,
+            "center": [
+              172.38,
+              122.51
+            ],
+            "center_normalized": [
+              0.875,
+              0.692143
+            ],
+            "offset_from_image_center": [
+              74.38,
+              34.51
+            ],
+            "bbox_xyxy": [
+              164.99,
+              111.43,
+              179.76,
+              133.59
+            ],
+            "keypoints": [
+              [
+                166.22,
+                120.66
+              ],
+              [
+                171.14,
+                132.36
+              ],
+              [
+                178.53,
+                122.51
+              ],
+              [
+                174.84,
+                110.81
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -26.5,
+          656.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.9999485671186772,
+        "detections": [
+          {
+            "class_id": 3,
+            "class_name": "1_Blue",
+            "confidence": 0.855469,
+            "center": [
+              90.5,
+              134.21
+            ],
+            "center_normalized": [
+              0.459375,
+              0.758227
+            ],
+            "offset_from_image_center": [
+              -7.5,
+              46.21
+            ],
+            "bbox_xyxy": [
+              61.56,
+              126.2,
+              119.43,
+              142.21
+            ],
+            "keypoints": [
+              [
+                61.87,
+                126.2
+              ],
+              [
+                61.56,
+                140.36
+              ],
+              [
+                119.43,
+                140.98
+              ],
+              [
+                118.82,
+                126.2
+              ]
+            ]
+          },
+          {
+            "class_id": 3,
+            "class_name": "1_Blue",
+            "confidence": 0.574219,
+            "center": [
+              172.38,
+              122.51
+            ],
+            "center_normalized": [
+              0.875,
+              0.692143
+            ],
+            "offset_from_image_center": [
+              74.38,
+              34.51
+            ],
+            "bbox_xyxy": [
+              165.6,
+              111.43,
+              179.15,
+              133.59
+            ],
+            "keypoints": [
+              [
+                166.22,
+                120.05
+              ],
+              [
+                171.14,
+                132.36
+              ],
+              [
+                178.53,
+                121.89
+              ],
+              [
+                174.84,
+                110.81
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -30.5,
+          652.0
+        ]
+      }
+    }
+  },
+  {
+    "image": "calib_0003.jpg",
+    "reference_detections": [
+      {
+        "class_id": 10,
+        "class_name": "3_Red",
+        "confidence": 0.94918,
+        "center": [
+          135.88,
+          77.44
+        ],
+        "center_normalized": [
+          0.763359,
+          0.667575
+        ],
+        "offset_from_image_center": [
+          47.38,
+          19.94
+        ],
+        "bbox_xyxy": [
+          122.98,
+          67.76,
+          148.77,
+          87.11
+        ],
+        "keypoints": [
+          [
+            123.34,
+            74.87
+          ],
+          [
+            126.62,
+            87.09
+          ],
+          [
+            148.48,
+            79.85
+          ],
+          [
+            145.04,
+            67.61
+          ]
+        ]
+      },
+      {
+        "class_id": 10,
+        "class_name": "3_Red",
+        "confidence": 0.917268,
+        "center": [
+          56.11,
+          77.34
+        ],
+        "center_normalized": [
+          0.315202,
+          0.666752
+        ],
+        "offset_from_image_center": [
+          -32.39,
+          19.84
+        ],
+        "bbox_xyxy": [
+          42.22,
+          69.75,
+          70.0,
+          84.94
+        ],
+        "keypoints": [
+          [
+            43.7,
+            69.99
+          ],
+          [
+            42.1,
+            81.92
+          ],
+          [
+            68.46,
+            84.87
+          ],
+          [
+            69.93,
+            72.11
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9998980852502825,
+        "detections": [
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.953125,
+            "center": [
+              135.17,
+              78.15
+            ],
+            "center_normalized": [
+              0.759375,
+              0.673734
+            ],
+            "offset_from_image_center": [
+              46.67,
+              20.65
+            ],
+            "bbox_xyxy": [
+              122.38,
+              68.7,
+              147.96,
+              87.61
+            ],
+            "keypoints": [
+              [
+                122.93,
+                75.37
+              ],
+              [
+                126.83,
+                87.05
+              ],
+              [
+                147.96,
+                79.82
+              ],
+              [
+                144.62,
+                67.58
+              ]
+            ]
+          },
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.914062,
+            "center": [
+              55.9,
+              77.04
+            ],
+            "center_normalized": [
+              0.314063,
+              0.664143
+            ],
+            "offset_from_image_center": [
+              -32.6,
+              19.54
+            ],
+            "bbox_xyxy": [
+              42.55,
+              69.25,
+              69.25,
+              84.83
+            ],
+            "keypoints": [
+              [
+                43.94,
+                69.81
+              ],
+              [
+                42.55,
+                82.05
+              ],
+              [
+                68.7,
+                84.83
+              ],
+              [
+                70.09,
+                71.48
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -32.5,
+          752.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.9998968567036509,
+        "detections": [
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.953125,
+            "center": [
+              135.17,
+              77.04
+            ],
+            "center_normalized": [
+              0.759375,
+              0.664143
+            ],
+            "offset_from_image_center": [
+              46.67,
+              19.54
+            ],
+            "bbox_xyxy": [
+              122.38,
+              67.03,
+              147.96,
+              87.05
+            ],
+            "keypoints": [
+              [
+                122.93,
+                74.82
+              ],
+              [
+                126.27,
+                87.61
+              ],
+              [
+                147.96,
+                79.82
+              ],
+              [
+                144.62,
+                67.03
+              ]
+            ]
+          },
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.914062,
+            "center": [
+              56.18,
+              77.04
+            ],
+            "center_normalized": [
+              0.315625,
+              0.664143
+            ],
+            "offset_from_image_center": [
+              -32.32,
+              19.54
+            ],
+            "bbox_xyxy": [
+              42.27,
+              69.25,
+              70.09,
+              84.83
+            ],
+            "keypoints": [
+              [
+                43.67,
+                69.81
+              ],
+              [
+                42.27,
+                81.49
+              ],
+              [
+                68.7,
+                84.83
+              ],
+              [
+                70.09,
+                71.48
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          760.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.99989720720769,
+        "detections": [
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.953125,
+            "center": [
+              135.17,
+              78.15
+            ],
+            "center_normalized": [
+              0.759375,
+              0.673734
+            ],
+            "offset_from_image_center": [
+              46.67,
+              20.65
+            ],
+            "bbox_xyxy": [
+              122.38,
+              68.7,
+              147.96,
+              87.61
+            ],
+            "keypoints": [
+              [
+                122.93,
+                75.37
+              ],
+              [
+                126.83,
+                87.61
+              ],
+              [
+                147.96,
+                79.82
+              ],
+              [
+                144.62,
+                67.58
+              ]
+            ]
+          },
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.914062,
+            "center": [
+              55.9,
+              78.15
+            ],
+            "center_normalized": [
+              0.314063,
+              0.673734
+            ],
+            "offset_from_image_center": [
+              -32.6,
+              20.65
+            ],
+            "bbox_xyxy": [
+              42.55,
+              70.92,
+              69.25,
+              85.38
+            ],
+            "keypoints": [
+              [
+                43.94,
+                69.81
+              ],
+              [
+                42.27,
+                82.05
+              ],
+              [
+                68.98,
+                84.83
+              ],
+              [
+                70.09,
+                71.48
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          752.0
+        ]
+      }
+    }
+  },
+  {
+    "image": "calib_0007.jpg",
+    "reference_detections": [
+      {
+        "class_id": 10,
+        "class_name": "3_Red",
+        "confidence": 0.947762,
+        "center": [
+          119.39,
+          202.34
+        ],
+        "center_normalized": [
+          0.18655,
+          0.526914
+        ],
+        "offset_from_image_center": [
+          -200.11,
+          10.84
+        ],
+        "bbox_xyxy": [
+          72.87,
+          180.49,
+          165.92,
+          224.18
+        ],
+        "keypoints": [
+          [
+            73.65,
+            187.74
+          ],
+          [
+            75.81,
+            223.66
+          ],
+          [
+            165.84,
+            217.15
+          ],
+          [
+            162.68,
+            181.11
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9997795641157473,
+        "detections": [
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.953125,
+            "center": [
+              118.5,
+              204.0
+            ],
+            "center_normalized": [
+              0.185156,
+              0.53125
+            ],
+            "offset_from_image_center": [
+              -201.0,
+              12.5
+            ],
+            "bbox_xyxy": [
+              72.5,
+              182.0,
+              164.5,
+              226.0
+            ],
+            "keypoints": [
+              [
+                75.0,
+                188.0
+              ],
+              [
+                77.0,
+                224.0
+              ],
+              [
+                165.0,
+                218.0
+              ],
+              [
+                162.0,
+                182.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -36.5,
+          736.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.99979383525185,
+        "detections": [
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.953125,
+            "center": [
+              120.0,
+              204.0
+            ],
+            "center_normalized": [
+              0.1875,
+              0.53125
+            ],
+            "offset_from_image_center": [
+              -199.5,
+              12.5
+            ],
+            "bbox_xyxy": [
+              72.0,
+              182.0,
+              168.0,
+              226.0
+            ],
+            "keypoints": [
+              [
+                75.0,
+                188.0
+              ],
+              [
+                77.0,
+                224.0
+              ],
+              [
+                164.0,
+                218.0
+              ],
+              [
+                162.0,
+                180.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -32.5,
+          776.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.9997789455730223,
+        "detections": [
+          {
+            "class_id": 10,
+            "class_name": "3_Red",
+            "confidence": 0.953125,
+            "center": [
+              118.5,
+              204.0
+            ],
+            "center_normalized": [
+              0.185156,
+              0.53125
+            ],
+            "offset_from_image_center": [
+              -201.0,
+              12.5
+            ],
+            "bbox_xyxy": [
+              72.5,
+              182.0,
+              164.5,
+              226.0
+            ],
+            "keypoints": [
+              [
+                76.0,
+                188.0
+              ],
+              [
+                77.0,
+                224.0
+              ],
+              [
+                164.0,
+                218.0
+              ],
+              [
+                162.0,
+                180.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          736.0
+        ]
+      }
+    }
+  },
+  {
+    "image": "calib_0011.jpg",
+    "reference_detections": [
+      {
+        "class_id": 13,
+        "class_name": "4_Red",
+        "confidence": 0.854398,
+        "center": [
+          736.2,
+          1216.14
+        ],
+        "center_normalized": [
+          0.514467,
+          0.78613
+        ],
+        "offset_from_image_center": [
+          21.2,
+          443.14
+        ],
+        "bbox_xyxy": [
+          535.58,
+          1118.66,
+          936.83,
+          1313.63
+        ],
+        "keypoints": [
+          [
+            545.65,
+            1147.29
+          ],
+          [
+            545.52,
+            1304.88
+          ],
+          [
+            930.18,
+            1280.74
+          ],
+          [
+            924.53,
+            1126.26
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9998975888169813,
+        "detections": [
+          {
+            "class_id": 13,
+            "class_name": "4_Red",
+            "confidence": 0.8125,
+            "center": [
+              729.99,
+              1223.1
+            ],
+            "center_normalized": [
+              0.510126,
+              0.790625
+            ],
+            "offset_from_image_center": [
+              14.99,
+              450.1
+            ],
+            "bbox_xyxy": [
+              531.78,
+              1126.41,
+              928.2,
+              1319.78
+            ],
+            "keypoints": [
+              [
+                546.28,
+                1145.75
+              ],
+              [
+                546.28,
+                1305.28
+              ],
+              [
+                928.2,
+                1285.94
+              ],
+              [
+                923.37,
+                1126.41
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -18.25,
+          652.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.9998765399281618,
+        "detections": [
+          {
+            "class_id": 13,
+            "class_name": "4_Red",
+            "confidence": 0.765625,
+            "center": [
+              739.66,
+              1223.1
+            ],
+            "center_normalized": [
+              0.516883,
+              0.790625
+            ],
+            "offset_from_image_center": [
+              24.66,
+              450.1
+            ],
+            "bbox_xyxy": [
+              536.62,
+              1126.41,
+              942.7,
+              1319.78
+            ],
+            "keypoints": [
+              [
+                551.12,
+                1150.58
+              ],
+              [
+                546.28,
+                1305.28
+              ],
+              [
+                928.2,
+                1285.94
+              ],
+              [
+                923.37,
+                1126.41
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -17.25,
+          664.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.9998973253564346,
+        "detections": [
+          {
+            "class_id": 13,
+            "class_name": "4_Red",
+            "confidence": 0.8125,
+            "center": [
+              739.66,
+              1213.43
+            ],
+            "center_normalized": [
+              0.516883,
+              0.784375
+            ],
+            "offset_from_image_center": [
+              24.66,
+              440.43
+            ],
+            "bbox_xyxy": [
+              536.62,
+              1111.91,
+              942.7,
+              1314.95
+            ],
+            "keypoints": [
+              [
+                546.28,
+                1150.58
+              ],
+              [
+                551.12,
+                1314.95
+              ],
+              [
+                933.03,
+                1285.94
+              ],
+              [
+                923.37,
+                1121.58
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -18.25,
+          652.0
+        ]
+      }
+    }
+  },
+  {
+    "image": "video_00043260.jpg",
+    "reference_detections": [
+      {
+        "class_id": 12,
+        "class_name": "4_Blue",
+        "confidence": 0.640998,
+        "center": [
+          1283.5,
+          605.74
+        ],
+        "center_normalized": [
+          0.66849,
+          0.560869
+        ],
+        "offset_from_image_center": [
+          324.0,
+          66.24
+        ],
+        "bbox_xyxy": [
+          1264.03,
+          595.14,
+          1302.97,
+          616.34
+        ],
+        "keypoints": [
+          [
+            1266.02,
+            595.78
+          ],
+          [
+            1264.37,
+            609.99
+          ],
+          [
+            1299.84,
+            613.52
+          ],
+          [
+            1300.28,
+            598.48
+          ]
+        ]
+      },
+      {
+        "class_id": 6,
+        "class_name": "2_Blue",
+        "confidence": 0.372696,
+        "center": [
+          1282.1,
+          605.3
+        ],
+        "center_normalized": [
+          0.667759,
+          0.560465
+        ],
+        "offset_from_image_center": [
+          322.6,
+          65.8
+        ],
+        "bbox_xyxy": [
+          1262.79,
+          594.04,
+          1301.41,
+          616.57
+        ],
+        "keypoints": [
+          [
+            1266.46,
+            596.08
+          ],
+          [
+            1264.61,
+            608.13
+          ],
+          [
+            1300.58,
+            612.29
+          ],
+          [
+            1299.54,
+            594.62
+          ]
+        ]
+      },
+      {
+        "class_id": 9,
+        "class_name": "3_Blue",
+        "confidence": 0.337192,
+        "center": [
+          1152.64,
+          543.89
+        ],
+        "center_normalized": [
+          0.600332,
+          0.5036
+        ],
+        "offset_from_image_center": [
+          193.14,
+          4.39
+        ],
+        "bbox_xyxy": [
+          1141.64,
+          535.88,
+          1163.63,
+          551.89
+        ],
+        "keypoints": [
+          [
+            1143.88,
+            538.22
+          ],
+          [
+            1142.58,
+            548.21
+          ],
+          [
+            1161.52,
+            551.11
+          ],
+          [
+            1163.32,
+            541.04
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9998076253133025,
+        "detections": [
+          {
+            "class_id": 12,
+            "class_name": "4_Blue",
+            "confidence": 0.425781,
+            "center": [
+              1284.0,
+              600.0
+            ],
+            "center_normalized": [
+              0.66875,
+              0.555556
+            ],
+            "offset_from_image_center": [
+              324.5,
+              60.5
+            ],
+            "bbox_xyxy": [
+              1269.0,
+              591.0,
+              1299.0,
+              609.0
+            ],
+            "keypoints": [
+              [
+                1272.0,
+                594.0
+              ],
+              [
+                1272.0,
+                606.0
+              ],
+              [
+                1302.0,
+                612.0
+              ],
+              [
+                1302.0,
+                594.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -38.5,
+          824.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.999816519919304,
+        "detections": [
+          {
+            "class_id": 12,
+            "class_name": "4_Blue",
+            "confidence": 0.425781,
+            "center": [
+              1284.0,
+              600.0
+            ],
+            "center_normalized": [
+              0.66875,
+              0.555556
+            ],
+            "offset_from_image_center": [
+              324.5,
+              60.5
+            ],
+            "bbox_xyxy": [
+              1269.0,
+              591.0,
+              1299.0,
+              609.0
+            ],
+            "keypoints": [
+              [
+                1272.0,
+                594.0
+              ],
+              [
+                1272.0,
+                606.0
+              ],
+              [
+                1302.0,
+                612.0
+              ],
+              [
+                1302.0,
+                600.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          840.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.9998071848271283,
+        "detections": [
+          {
+            "class_id": 12,
+            "class_name": "4_Blue",
+            "confidence": 0.425781,
+            "center": [
+              1284.0,
+              600.0
+            ],
+            "center_normalized": [
+              0.66875,
+              0.555556
+            ],
+            "offset_from_image_center": [
+              324.5,
+              60.5
+            ],
+            "bbox_xyxy": [
+              1269.0,
+              591.0,
+              1299.0,
+              609.0
+            ],
+            "keypoints": [
+              [
+                1272.0,
+                594.0
+              ],
+              [
+                1272.0,
+                606.0
+              ],
+              [
+                1302.0,
+                612.0
+              ],
+              [
+                1302.0,
+                594.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          824.0
+        ]
+      }
+    }
+  },
+  {
+    "image": "video_00043275.jpg",
+    "reference_detections": [
+      {
+        "class_id": 12,
+        "class_name": "4_Blue",
+        "confidence": 0.697908,
+        "center": [
+          1135.15,
+          606.1
+        ],
+        "center_normalized": [
+          0.591222,
+          0.5612
+        ],
+        "offset_from_image_center": [
+          175.65,
+          66.6
+        ],
+        "bbox_xyxy": [
+          1109.69,
+          593.47,
+          1160.6,
+          618.72
+        ],
+        "keypoints": [
+          [
+            1110.5,
+            596.62
+          ],
+          [
+            1109.57,
+            616.45
+          ],
+          [
+            1158.65,
+            617.59
+          ],
+          [
+            1157.75,
+            597.26
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9998316955963725,
+        "detections": [
+          {
+            "class_id": 12,
+            "class_name": "4_Blue",
+            "confidence": 0.707031,
+            "center": [
+              1140.0,
+              606.0
+            ],
+            "center_normalized": [
+              0.59375,
+              0.561111
+            ],
+            "offset_from_image_center": [
+              180.5,
+              66.5
+            ],
+            "bbox_xyxy": [
+              1113.0,
+              594.0,
+              1167.0,
+              618.0
+            ],
+            "keypoints": [
+              [
+                1110.0,
+                594.0
+              ],
+              [
+                1110.0,
+                618.0
+              ],
+              [
+                1158.0,
+                618.0
+              ],
+              [
+                1158.0,
+                594.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          840.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.9998362683278352,
+        "detections": [
+          {
+            "class_id": 12,
+            "class_name": "4_Blue",
+            "confidence": 0.765625,
+            "center": [
+              1140.0,
+              606.0
+            ],
+            "center_normalized": [
+              0.59375,
+              0.561111
+            ],
+            "offset_from_image_center": [
+              180.5,
+              66.5
+            ],
+            "bbox_xyxy": [
+              1113.0,
+              594.0,
+              1167.0,
+              618.0
+            ],
+            "keypoints": [
+              [
+                1110.0,
+                594.0
+              ],
+              [
+                1110.0,
+                618.0
+              ],
+              [
+                1158.0,
+                618.0
+              ],
+              [
+                1158.0,
+                594.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -36.5,
+          856.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.9998309031051882,
+        "detections": [
+          {
+            "class_id": 12,
+            "class_name": "4_Blue",
+            "confidence": 0.765625,
+            "center": [
+              1140.0,
+              606.0
+            ],
+            "center_normalized": [
+              0.59375,
+              0.561111
+            ],
+            "offset_from_image_center": [
+              180.5,
+              66.5
+            ],
+            "bbox_xyxy": [
+              1113.0,
+              594.0,
+              1167.0,
+              618.0
+            ],
+            "keypoints": [
+              [
+                1110.0,
+                594.0
+              ],
+              [
+                1110.0,
+                618.0
+              ],
+              [
+                1158.0,
+                618.0
+              ],
+              [
+                1158.0,
+                594.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -32.5,
+          840.0
+        ]
+      }
+    }
+  },
+  {
+    "image": "video_00043300.jpg",
+    "reference_detections": [
+      {
+        "class_id": 6,
+        "class_name": "2_Blue",
+        "confidence": 0.891607,
+        "center": [
+          1357.3,
+          796.12
+        ],
+        "center_normalized": [
+          0.706928,
+          0.737146
+        ],
+        "offset_from_image_center": [
+          397.8,
+          256.62
+        ],
+        "bbox_xyxy": [
+          1287.26,
+          758.85,
+          1427.35,
+          833.39
+        ],
+        "keypoints": [
+          [
+            1287.73,
+            767.87
+          ],
+          [
+            1292.95,
+            830.69
+          ],
+          [
+            1424.71,
+            821.98
+          ],
+          [
+            1418.62,
+            761.75
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9998365384140895,
+        "detections": [
+          {
+            "class_id": 6,
+            "class_name": "2_Blue",
+            "confidence": 0.914062,
+            "center": [
+              1356.0,
+              804.0
+            ],
+            "center_normalized": [
+              0.70625,
+              0.744444
+            ],
+            "offset_from_image_center": [
+              396.5,
+              264.5
+            ],
+            "bbox_xyxy": [
+              1284.0,
+              762.0,
+              1428.0,
+              846.0
+            ],
+            "keypoints": [
+              [
+                1284.0,
+                768.0
+              ],
+              [
+                1290.0,
+                834.0
+              ],
+              [
+                1428.0,
+                822.0
+              ],
+              [
+                1422.0,
+                762.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          856.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.9998392567740844,
+        "detections": [
+          {
+            "class_id": 6,
+            "class_name": "2_Blue",
+            "confidence": 0.886719,
+            "center": [
+              1356.0,
+              804.0
+            ],
+            "center_normalized": [
+              0.70625,
+              0.744444
+            ],
+            "offset_from_image_center": [
+              396.5,
+              264.5
+            ],
+            "bbox_xyxy": [
+              1284.0,
+              762.0,
+              1428.0,
+              846.0
+            ],
+            "keypoints": [
+              [
+                1284.0,
+                768.0
+              ],
+              [
+                1290.0,
+                834.0
+              ],
+              [
+                1428.0,
+                822.0
+              ],
+              [
+                1422.0,
+                756.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -32.5,
+          880.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.9998348635624071,
+        "detections": [
+          {
+            "class_id": 6,
+            "class_name": "2_Blue",
+            "confidence": 0.886719,
+            "center": [
+              1356.0,
+              804.0
+            ],
+            "center_normalized": [
+              0.70625,
+              0.744444
+            ],
+            "offset_from_image_center": [
+              396.5,
+              264.5
+            ],
+            "bbox_xyxy": [
+              1284.0,
+              762.0,
+              1428.0,
+              846.0
+            ],
+            "keypoints": [
+              [
+                1284.0,
+                768.0
+              ],
+              [
+                1290.0,
+                834.0
+              ],
+              [
+                1428.0,
+                822.0
+              ],
+              [
+                1422.0,
+                756.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          856.0
+        ]
+      }
+    }
+  },
+  {
+    "image": "video_00043310.jpg",
+    "reference_detections": [
+      {
+        "class_id": 8,
+        "class_name": "2_N",
+        "confidence": 0.394805,
+        "center": [
+          1123.62,
+          803.1
+        ],
+        "center_normalized": [
+          0.585217,
+          0.74361
+        ],
+        "offset_from_image_center": [
+          164.12,
+          263.6
+        ],
+        "bbox_xyxy": [
+          1092.43,
+          760.86,
+          1154.8,
+          845.34
+        ],
+        "keypoints": [
+          [
+            1111.02,
+            763.89
+          ],
+          [
+            1093.46,
+            817.59
+          ],
+          [
+            1134.45,
+            841.28
+          ],
+          [
+            1153.26,
+            785.32
+          ]
+        ]
+      },
+      {
+        "class_id": 6,
+        "class_name": "2_Blue",
+        "confidence": 0.283995,
+        "center": [
+          1700.95,
+          943.51
+        ],
+        "center_normalized": [
+          0.885911,
+          0.873618
+        ],
+        "offset_from_image_center": [
+          741.45,
+          404.01
+        ],
+        "bbox_xyxy": [
+          1689.19,
+          933.97,
+          1712.71,
+          953.04
+        ],
+        "keypoints": [
+          [
+            1689.6,
+            935.93
+          ],
+          [
+            1688.61,
+            951.36
+          ],
+          [
+            1711.05,
+            952.4
+          ],
+          [
+            1711.1,
+            936.16
+          ]
+        ]
+      }
+    ],
+    "candidates": {
+      "baseline": {
+        "cosine_to_onnx": 0.9998196122880885,
+        "detections": [
+          {
+            "class_id": 8,
+            "class_name": "2_N",
+            "confidence": 0.357422,
+            "center": [
+              1128.0,
+              804.0
+            ],
+            "center_normalized": [
+              0.5875,
+              0.744444
+            ],
+            "offset_from_image_center": [
+              168.5,
+              264.5
+            ],
+            "bbox_xyxy": [
+              1095.0,
+              759.0,
+              1161.0,
+              849.0
+            ],
+            "keypoints": [
+              [
+                1110.0,
+                762.0
+              ],
+              [
+                1092.0,
+                822.0
+              ],
+              [
+                1134.0,
+                846.0
+              ],
+              [
+                1158.0,
+                786.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -36.5,
+          896.0
+        ]
+      },
+      "fast": {
+        "cosine_to_onnx": 0.9998279004569895,
+        "detections": [],
+        "range": [
+          -34.5,
+          904.0
+        ]
+      },
+      "balanced": {
+        "cosine_to_onnx": 0.9998195252517852,
+        "detections": [
+          {
+            "class_id": 8,
+            "class_name": "2_N",
+            "confidence": 0.425781,
+            "center": [
+              1128.0,
+              804.0
+            ],
+            "center_normalized": [
+              0.5875,
+              0.744444
+            ],
+            "offset_from_image_center": [
+              168.5,
+              264.5
+            ],
+            "bbox_xyxy": [
+              1095.0,
+              759.0,
+              1161.0,
+              849.0
+            ],
+            "keypoints": [
+              [
+                1110.0,
+                762.0
+              ],
+              [
+                1092.0,
+                822.0
+              ],
+              [
+                1134.0,
+                840.0
+              ],
+              [
+                1158.0,
+                786.0
+              ]
+            ]
+          }
+        ],
+        "range": [
+          -34.5,
+          896.0
+        ]
+      }
+    }
+  }
+]

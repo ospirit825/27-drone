@@ -1,0 +1,574 @@
+Mlir Version: v1.7-20240419
+Cvimodel Version: 1.4.0
+first_model Build at 2026-11-04 10:55:16
+For cv181x chip ONLY
+CviModel Need ION Memory Size: (12.43 MB)
+
+Sections:
+ID   TYPE      NAME                     SIZE        OFFSET      MD5
+000  weight    weight                   2603104     0           b7729101180430613bc2d52394410540
+001  cmdbuf    subfunc_1                467304      2603104     0a11fb34745d9779d0b7bad55a761520
+
+WeightMap:
+ID   OFFSET    SIZE      TYPE    N    C    H    W    NAME
+000  707072    144       int8    1    16   1    9    /model.0/conv/Conv_output_0_Conv_bias_packed
+001  1195456   576       int8    1    16   9    4    /model.0/conv/Conv_output_0_Conv_filter_reordered
+002  1170304   256       int8    1    1    1    256  /model.0/act/Mul_output_0_Mul_table
+003  2447776   288       int8    1    32   1    9    /model.1/conv/Conv_output_0_Conv_bias_packed
+004  2481296   4608      int8    1    32   9    16   /model.1/conv/Conv_output_0_Conv_filter_reordered
+005  1648512   256       int8    1    1    1    256  /model.1/act/Mul_output_0_Mul_table
+006  1662272   288       int8    1    32   1    9    /model.2/cv1/conv/Conv_output_0_Conv_bias_packed
+007  703488    1024      int8    1    32   1    32   /model.2/cv1/conv/Conv_output_0_Conv_filter_reordered
+008  1003984   256       int8    1    1    1    256  /model.2/cv1/act/Mul_output_0_Mul_table
+009  1724544   72        int8    1    8    1    9    /model.2/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+010  1801936   1152      int8    1    8    9    16   /model.2/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+011  2522656   256       int8    1    1    1    256  /model.2/m.0/cv1/act/Mul_output_0_Mul_table
+012  2091232   144       int8    1    16   1    9    /model.2/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+013  1658048   1152      int8    1    16   9    8    /model.2/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+014  864688    256       int8    1    1    1    256  /model.2/m.0/cv2/act/Mul_output_0_Mul_table
+015  1180544   576       int8    1    64   1    9    /model.2/cv2/conv/Conv_output_0_Conv_bias_packed
+016  1659200   3072      int8    1    64   1    48   /model.2/cv2/conv/Conv_output_0_Conv_filter_reordered
+017  1103632   256       int8    1    1    1    256  /model.2/cv2/act/Mul_output_0_Mul_table
+018  1167392   576       int8    1    64   1    9    /model.3/conv/Conv_output_0_Conv_bias_packed
+019  2194240   36864     int8    1    64   9    64   /model.3/conv/Conv_output_0_Conv_filter_reordered
+020  2549696   256       int8    1    1    1    256  /model.3/act/Mul_output_0_Mul_table
+021  1803344   576       int8    1    64   1    9    /model.4/cv1/conv/Conv_output_0_Conv_bias_packed
+022  2538688   4096      int8    1    64   1    64   /model.4/cv1/conv/Conv_output_0_Conv_filter_reordered
+023  1648768   256       int8    1    1    1    256  /model.4/cv1/act/Mul_output_0_Mul_table
+024  2279104   144       int8    1    16   1    9    /model.4/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+025  635808    4608      int8    1    16   9    32   /model.4/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+026  2266816   256       int8    1    1    1    256  /model.4/m.0/cv1/act/Mul_output_0_Mul_table
+027  707472    288       int8    1    32   1    9    /model.4/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+028  1181120   4608      int8    1    32   9    16   /model.4/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+029  704512    256       int8    1    1    1    256  /model.4/m.0/cv2/act/Mul_output_0_Mul_table
+030  2279248   1152      int8    1    128  1    9    /model.4/cv2/conv/Conv_output_0_Conv_bias_packed
+031  1822160   12288     int8    1    128  1    96   /model.4/cv2/conv/Conv_output_0_Conv_filter_reordered
+032  2522912   256       int8    1    1    1    256  /model.4/cv2/act/Mul_output_0_Mul_table
+033  1868304   1152      int8    1    128  1    9    /model.5/conv/Conv_output_0_Conv_bias_packed
+034  708272    147456    int8    1    128  9    128  /model.5/conv/Conv_output_0_Conv_filter_reordered
+035  1869456   256       int8    1    1    1    256  /model.5/act/Mul_output_0_Mul_table
+036  1870768   1152      int8    1    128  1    9    /model.6/cv1/conv/Conv_output_0_Conv_bias_packed
+037  1149456   16384     int8    1    128  1    128  /model.6/cv1/conv/Conv_output_0_Conv_filter_reordered
+038  1875504   256       int8    1    1    1    256  /model.6/cv1/act/Mul_output_0_Mul_table
+039  1662560   288       int8    1    32   1    9    /model.6/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+040  2089184   2048      int8    1    32   1    64   /model.6/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+041  1912128   288       int8    1    32   1    9    /model.6/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+042  1912704   2048      int8    1    32   1    64   /model.6/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+043  1915264   256       int8    1    1    1    256  /model.6/m.0/cv1/act/Mul_output_0_Mul_table
+044  2051200   256       int8    1    1    1    256  /model.6/m.0/cv2/act/Mul_output_0_Mul_table
+045  2092096   288       int8    1    32   1    9    /model.6/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+046  1185728   9216      int8    1    32   9    32   /model.6/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+047  2231104   256       int8    1    1    1    256  /model.6/m.0/m/m.0/cv1/act/Mul_output_0_Mul_table
+048  2157920   288       int8    1    32   1    9    /model.6/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+049  1790160   9216      int8    1    32   9    32   /model.6/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+050  2158208   256       int8    1    1    1    256  /model.6/m.0/m/m.0/cv2/act/Mul_output_0_Mul_table
+051  2193952   288       int8    1    32   1    9    /model.6/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_bias_packed
+052  867088    9216      int8    1    32   9    32   /model.6/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_filter_reordered
+053  1004496   256       int8    1    1    1    256  /model.6/m.0/m/m.1/cv1/act/Mul_output_0_Mul_table
+054  2052032   288       int8    1    32   1    9    /model.6/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_bias_packed
+055  2461568   9216      int8    1    32   9    32   /model.6/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_filter_reordered
+056  1196864   256       int8    1    1    1    256  /model.6/m.0/m/m.1/cv2/act/Mul_output_0_Mul_table
+057  2051456   576       int8    1    64   1    9    /model.6/m.0/cv3/conv/Conv_output_0_Conv_bias_packed
+058  2523168   4096      int8    1    64   1    64   /model.6/m.0/cv3/conv/Conv_output_0_Conv_filter_reordered
+059  1170560   256       int8    1    1    1    256  /model.6/m.0/cv3/act/Mul_output_0_Mul_table
+060  1875904   1152      int8    1    128  1    9    /model.6/cv2/conv/Conv_output_0_Conv_bias_packed
+061  881104    24576     int8    1    128  1    192  /model.6/cv2/conv/Conv_output_0_Conv_filter_reordered
+062  880848    256       int8    1    1    1    256  /model.6/cv2/act/Mul_output_0_Mul_table
+063  1799632   2304      int8    1    256  1    9    /model.7/conv/Conv_output_0_Conv_bias_packed
+064  1197120   294912    int8    1    256  9    128  /model.7/conv/Conv_output_0_Conv_filter_reordered
+065  879696    256       int8    1    1    1    256  /model.7/act/Mul_output_0_Mul_table
+066  876304    2304      int8    1    256  1    9    /model.8/cv1/conv/Conv_output_0_Conv_bias_packed
+067  1004752   65536     int8    1    256  1    256  /model.8/cv1/conv/Conv_output_0_Conv_filter_reordered
+068  1872176   256       int8    1    1    1    256  /model.8/cv1/act/Mul_output_0_Mul_table
+069  866512    576       int8    1    64   1    9    /model.8/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+070  856496    8192      int8    1    64   1    128  /model.8/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+071  878608    576       int8    1    64   1    9    /model.8/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+072  2430368   8192      int8    1    64   1    128  /model.8/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+073  547040    256       int8    1    1    1    256  /model.8/m.0/cv1/act/Mul_output_0_Mul_table
+074  707216    256       int8    1    1    1    256  /model.8/m.0/cv2/act/Mul_output_0_Mul_table
+075  1196288   576       int8    1    64   1    9    /model.8/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+076  641968    36864     int8    1    64   9    64   /model.8/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+077  2327712   256       int8    1    1    1    256  /model.8/m.0/m/m.0/cv1/act/Mul_output_0_Mul_table
+078  2458432   576       int8    1    64   1    9    /model.8/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+079  1663104   36864     int8    1    64   9    64   /model.8/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+080  1004240   256       int8    1    1    1    256  /model.8/m.0/m/m.0/cv2/act/Mul_output_0_Mul_table
+081  2091376   576       int8    1    64   1    9    /model.8/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_bias_packed
+082  2052320   36864     int8    1    64   9    64   /model.8/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_filter_reordered
+083  1871920   256       int8    1    1    1    256  /model.8/m.0/m/m.1/cv1/act/Mul_output_0_Mul_table
+084  1821584   576       int8    1    64   1    9    /model.8/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_bias_packed
+085  1106192   36864     int8    1    64   9    64   /model.8/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_filter_reordered
+086  1803088   256       int8    1    1    1    256  /model.8/m.0/m/m.1/cv2/act/Mul_output_0_Mul_table
+087  1649600   1152      int8    1    128  1    9    /model.8/m.0/cv3/conv/Conv_output_0_Conv_bias_packed
+088  687104    16384     int8    1    128  1    128  /model.8/m.0/cv3/conv/Conv_output_0_Conv_filter_reordered
+089  880336    256       int8    1    1    1    256  /model.8/m.0/cv3/act/Mul_output_0_Mul_table
+090  683968    2304      int8    1    256  1    9    /model.8/cv2/conv/Conv_output_0_Conv_bias_packed
+091  905680    98304     int8    1    256  1    384  /model.8/cv2/conv/Conv_output_0_Conv_filter_reordered
+092  1799376   256       int8    1    1    1    256  /model.8/cv2/act/Mul_output_0_Mul_table
+093  681136    1152      int8    1    128  1    9    /model.9/cv1/conv/Conv_output_0_Conv_bias_packed
+094  1834960   32768     int8    1    128  1    256  /model.9/cv1/conv/Conv_output_0_Conv_filter_reordered
+095  678832    2304      int8    1    256  1    9    /model.9/cv2/conv/Conv_output_0_Conv_bias_packed
+096  1920128   131072    int8    1    256  1    512  /model.9/cv2/conv/Conv_output_0_Conv_filter_reordered
+097  1804944   256       int8    1    1    1    256  /model.9/cv2/act/Mul_output_0_Mul_table
+098  2475216   2304      int8    1    256  1    9    /model.10/cv1/conv/Conv_output_0_Conv_bias_packed
+099  1724624   65536     int8    1    256  1    256  /model.10/cv1/conv/Conv_output_0_Conv_filter_reordered
+100  879440    256       int8    1    1    1    256  /model.10/cv1/act/Mul_output_0_Mul_table
+101  1143056   2304      int8    1    256  1    9    /model.10/m/m.0/attn/qkv/conv/Conv_output_0_Conv_bias_packed
+102  1877056   32768     int8    1    256  1    128  /model.10/m/m.0/attn/qkv/conv/Conv_output_0_Conv_filter_reordered
+103  1914752   512       bf16    1    1    32   8    /model.10/m/m.0/attn/Mul_output_0_Mul/model.10/m/m.0/attn/Mul_output_0_Mul_slope_table_bf16
+104  855984    512       bf16    1    1    32   8    /model.10/m/m.0/attn/Mul_output_0_Mul/model.10/m/m.0/attn/Mul_output_0_Mul_slope_slope_table_bf16
+105  640560    1152      int8    1    128  1    9    /model.10/m/m.0/attn/pe/conv/Conv_output_0_Conv_bias_packed
+106  1165840   1152      int8    1    128  3    3    /model.10/m/m.0/attn/pe/conv/Conv_output_0_Conv_filter_reordered
+107  1834448   512       bf16    1    1    32   8    /model.10/m/m.0/attn/Softmax_output_0_Softmax/model.10/m/m.0/attn/Softmax_output_0_Softmax_slope_table_bf16
+108  2429456   512       bf16    1    1    32   8    /model.10/m/m.0/attn/Softmax_output_0_Softmax/model.10/m/m.0/attn/Softmax_output_0_Softmax_slope_slope_table_bf16
+109  707760    512       bf16    1    1    32   8    /model.10/m/m.0/attn/Softmax_output_0_Softmax/model.10/m/m.0/attn/Softmax_output_0_Softmax_pow_table_bf16
+110  1194944   512       bf16    1    1    32   8    /model.10/m/m.0/attn/Softmax_output_0_Softmax/model.10/m/m.0/attn/Softmax_output_0_Softmax_pow_mantissa_table_bf16
+111  2183584   1152      int8    1    128  1    9    /model.10/m/m.0/attn/proj/conv/Conv_output_0_Conv_bias_packed
+112  619424    16384     int8    1    128  1    128  /model.10/m/m.0/attn/proj/conv/Conv_output_0_Conv_filter_reordered
+113  1103888   2304      int8    1    256  1    9    /model.10/m/m.0/ffn/ffn.0/conv/Conv_output_0_Conv_bias_packed
+114  586656    32768     int8    1    256  1    128  /model.10/m/m.0/ffn/ffn.0/conv/Conv_output_0_Conv_filter_reordered
+115  1870000   256       int8    1    1    1    256  /model.10/m/m.0/ffn/ffn.0/act/Mul_output_0_Mul_table
+116  585504    1152      int8    1    128  1    9    /model.10/m/m.0/ffn/ffn.1/conv/Conv_output_0_Conv_bias_packed
+117  551312    32768     int8    1    128  1    256  /model.10/m/m.0/ffn/ffn.1/conv/Conv_output_0_Conv_filter_reordered
+118  549008    2304      int8    1    256  1    9    /model.10/cv2/conv/Conv_output_0_Conv_bias_packed
+119  2092384   65536     int8    1    256  1    256  /model.10/cv2/conv/Conv_output_0_Conv_filter_reordered
+120  548752    256       int8    1    1    1    256  /model.10/cv2/act/Mul_output_0_Mul_table
+121  584480    1024      int8    1    256  2    2    /model.11/Resize_output_0_Resize_filter_reordered
+122  865232    1280      int8    1    256  1    5    /model.11/Resize_output_0_Resize_bias_packed
+123  547552    1152      int8    1    128  1    9    /model.13/cv1/conv/Conv_output_0_Conv_bias_packed
+124  497888    49152     int8    1    128  1    384  /model.13/cv1/conv/Conv_output_0_Conv_filter_reordered
+125  2158752   256       int8    1    1    1    256  /model.13/cv1/act/Mul_output_0_Mul_table
+126  1869712   288       int8    1    32   1    9    /model.13/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+127  2231360   2048      int8    1    32   1    64   /model.13/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+128  2158464   288       int8    1    32   1    9    /model.13/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+129  1167968   2048      int8    1    32   1    64   /model.13/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+130  2233408   256       int8    1    1    1    256  /model.13/m.0/cv1/act/Mul_output_0_Mul_table
+131  2256768   256       int8    1    1    1    256  /model.13/m.0/cv2/act/Mul_output_0_Mul_table
+132  2338752   288       int8    1    32   1    9    /model.13/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+133  2257600   9216      int8    1    32   9    32   /model.13/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+134  2267072   256       int8    1    1    1    256  /model.13/m.0/m/m.0/cv1/act/Mul_output_0_Mul_table
+135  2328224   288       int8    1    32   1    9    /model.13/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+136  1170816   9216      int8    1    32   9    32   /model.13/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+137  2280400   256       int8    1    1    1    256  /model.13/m.0/m/m.0/cv2/act/Mul_output_0_Mul_table
+138  2280656   288       int8    1    32   1    9    /model.13/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_bias_packed
+139  2317808   9216      int8    1    32   9    32   /model.13/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_filter_reordered
+140  2327968   256       int8    1    1    1    256  /model.13/m.0/m/m.1/cv1/act/Mul_output_0_Mul_table
+141  1912416   288       int8    1    32   1    9    /model.13/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_bias_packed
+142  2328512   9216      int8    1    32   9    32   /model.13/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_filter_reordered
+143  1870256   256       int8    1    1    1    256  /model.13/m.0/m/m.1/cv2/act/Mul_output_0_Mul_table
+144  1103056   576       int8    1    64   1    9    /model.13/m.0/cv3/conv/Conv_output_0_Conv_bias_packed
+145  1492288   4096      int8    1    64   1    64   /model.13/m.0/cv3/conv/Conv_output_0_Conv_filter_reordered
+146  2337728   256       int8    1    1    1    256  /model.13/m.0/cv3/act/Mul_output_0_Mul_table
+147  705920    1152      int8    1    128  1    9    /model.13/cv2/conv/Conv_output_0_Conv_bias_packed
+148  2159008   24576     int8    1    128  1    192  /model.13/cv2/conv/Conv_output_0_Conv_filter_reordered
+149  584080    256       int8    1    1    1    256  /model.13/cv2/act/Mul_output_0_Mul_table
+150  2338240   512       int8    1    128  2    2    /model.14/Resize_output_0_Resize_filter_reordered
+151  2339296   640       int8    1    128  1    5    /model.14/Resize_output_0_Resize_bias_packed
+152  2372704   576       int8    1    64   1    9    /model.16/cv1/conv/Conv_output_0_Conv_bias_packed
+153  1805200   16384     int8    1    64   1    256  /model.16/cv1/conv/Conv_output_0_Conv_filter_reordered
+154  2373280   256       int8    1    1    1    256  /model.16/cv1/act/Mul_output_0_Mul_table
+155  2373536   144       int8    1    16   1    9    /model.16/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+156  1872432   512       int8    1    16   1    32   /model.16/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+157  2374224   144       int8    1    16   1    9    /model.16/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+158  1180032   512       int8    1    16   1    32   /model.16/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+159  1662848   256       int8    1    1    1    256  /model.16/m.0/cv1/act/Mul_output_0_Mul_table
+160  2376736   256       int8    1    1    1    256  /model.16/m.0/cv2/act/Mul_output_0_Mul_table
+161  1875760   144       int8    1    16   1    9    /model.16/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+162  2376992   2304      int8    1    16   9    16   /model.16/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+163  2379808   256       int8    1    1    1    256  /model.16/m.0/m/m.0/cv1/act/Mul_output_0_Mul_table
+164  2380352   144       int8    1    16   1    9    /model.16/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+165  2380496   2304      int8    1    16   9    16   /model.16/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+166  641712    256       int8    1    1    1    256  /model.16/m.0/m/m.0/cv2/act/Mul_output_0_Mul_table
+167  2429968   144       int8    1    16   1    9    /model.16/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_bias_packed
+168  1872944   2304      int8    1    16   9    16   /model.16/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_filter_reordered
+169  2576224   256       int8    1    1    1    256  /model.16/m.0/m/m.1/cv1/act/Mul_output_0_Mul_table
+170  2392016   144       int8    1    16   1    9    /model.16/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_bias_packed
+171  1915520   2304      int8    1    16   9    16   /model.16/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_filter_reordered
+172  1166992   256       int8    1    1    1    256  /model.16/m.0/m/m.1/cv2/act/Mul_output_0_Mul_table
+173  2392304   288       int8    1    32   1    9    /model.16/m.0/cv3/conv/Conv_output_0_Conv_bias_packed
+174  1803920   1024      int8    1    32   1    32   /model.16/m.0/cv3/conv/Conv_output_0_Conv_filter_reordered
+175  2337984   256       int8    1    1    1    256  /model.16/m.0/cv3/act/Mul_output_0_Mul_table
+176  2233664   576       int8    1    64   1    9    /model.16/cv2/conv/Conv_output_0_Conv_bias_packed
+177  1650752   6144      int8    1    64   1    96   /model.16/cv2/conv/Conv_output_0_Conv_filter_reordered
+178  2487952   256       int8    1    1    1    256  /model.16/cv2/act/Mul_output_0_Mul_table
+179  1867728   576       int8    1    64   1    9    /model.17/conv/Conv_output_0_Conv_bias_packed
+180  2392592   36864     int8    1    64   9    64   /model.17/conv/Conv_output_0_Conv_filter_reordered
+181  2327024   144       int8    1    16   1    9    /model.23/cv2.0/cv2.0.0/conv/Conv_output_0_Conv_bias_packed
+182  2438560   9216      int8    1    16   9    64   /model.23/cv2.0/cv2.0.0/conv/Conv_output_0_Conv_filter_reordered
+183  2448064   576       int8    1    64   1    9    /model.23/cv3.0/cv3.0.0/cv3.0.0.0/conv/Conv_output_0_Conv_bias_packed
+184  2448640   576       int8    1    64   3    3    /model.23/cv3.0/cv3.0.0/cv3.0.0.0/conv/Conv_output_0_Conv_filter_reordered
+185  1167248   144       int8    1    16   1    9    /model.23/cv4.0/cv4.0.0/conv/Conv_output_0_Conv_bias_packed
+186  2449216   9216      int8    1    16   9    64   /model.23/cv4.0/cv4.0.0/conv/Conv_output_0_Conv_filter_reordered
+187  2459008   256       int8    1    1    1    256  /model.17/act/Mul_output_0_Mul_table
+188  2470784   256       int8    1    1    1    256  /model.23/cv2.0/cv2.0.0/act/Mul_output_0_Mul_table
+189  879184    256       int8    1    1    1    256  /model.23/cv3.0/cv3.0.0/cv3.0.0.0/act/Mul_output_0_Mul_table
+190  879952    256       int8    1    1    1    256  /model.23/cv4.0/cv4.0.0/act/Mul_output_0_Mul_table
+191  2392160   144       int8    1    16   1    9    /model.23/cv2.0/cv2.0.1/conv/Conv_output_0_Conv_bias_packed
+192  2374432   2304      int8    1    16   9    16   /model.23/cv2.0/cv2.0.1/conv/Conv_output_0_Conv_filter_reordered
+193  2473344   576       int8    1    64   1    9    /model.23/cv3.0/cv3.0.0/cv3.0.0.1/conv/Conv_output_0_Conv_bias_packed
+194  2234240   4096      int8    1    64   1    64   /model.23/cv3.0/cv3.0.0/cv3.0.0.1/conv/Conv_output_0_Conv_filter_reordered
+195  2473920   144       int8    1    16   1    9    /model.23/cv4.0/cv4.0.1/conv/Conv_output_0_Conv_bias_packed
+196  1909824   2304      int8    1    16   9    16   /model.23/cv4.0/cv4.0.1/conv/Conv_output_0_Conv_filter_reordered
+197  2474064   1152      int8    1    128  1    9    /model.19/cv1/conv/Conv_output_0_Conv_bias_packed
+198  1699968   24576     int8    1    128  1    192  /model.19/cv1/conv/Conv_output_0_Conv_filter_reordered
+199  2477520   256       int8    1    1    1    256  /model.23/cv2.0/cv2.0.1/act/Mul_output_0_Mul_table
+200  2430112   256       int8    1    1    1    256  /model.23/cv3.0/cv3.0.0/cv3.0.0.1/act/Mul_output_0_Mul_table
+201  1492032   256       int8    1    1    1    256  /model.23/cv4.0/cv4.0.1/act/Mul_output_0_Mul_table
+202  1875248   256       int8    1    1    1    256  /model.19/cv1/act/Mul_output_0_Mul_table
+203  2477776   36        int8    1    4    1    9    /model.23/cv2.0/cv2.0.2/Conv_output_0_Conv_bias_packed
+204  1170016   64        int8    1    4    1    16   /model.23/cv2.0/cv2.0.2/Conv_output_0_Conv_filter_reordered
+205  2546880   576       int8    1    64   1    9    /model.23/cv3.0/cv3.0.1/cv3.0.1.0/conv/Conv_output_0_Conv_bias_packed
+206  2478304   576       int8    1    64   3    3    /model.23/cv3.0/cv3.0.1/cv3.0.1.0/conv/Conv_output_0_Conv_filter_reordered
+207  2478880   72        int8    1    8    1    9    /model.23/cv4_kpts.0/Conv_output_0_Conv_bias_packed
+208  880208    128       int8    1    8    1    16   /model.23/cv4_kpts.0/Conv_output_0_Conv_filter_reordered
+209  2327168   288       int8    1    32   1    9    /model.19/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+210  2478960   2048      int8    1    32   1    64   /model.19/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+211  2481008   288       int8    1    32   1    9    /model.19/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+212  2485904   2048      int8    1    32   1    64   /model.19/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+213  1196032   256       int8    1    1    1    256  /model.23/cv3.0/cv3.0.1/cv3.0.1.0/act/Mul_output_0_Mul_table
+214  1649024   576       int8    1    64   1    9    /model.23/cv3.0/cv3.0.1/cv3.0.1.1/conv/Conv_output_0_Conv_bias_packed
+215  1496384   4096      int8    1    64   1    64   /model.23/cv3.0/cv3.0.1/cv3.0.1.1/conv/Conv_output_0_Conv_filter_reordered
+216  2488208   256       int8    1    1    1    256  /model.19/m.0/cv1/act/Mul_output_0_Mul_table
+217  2488544   256       int8    1    1    1    256  /model.19/m.0/cv2/act/Mul_output_0_Mul_table
+218  2380064   288       int8    1    32   1    9    /model.19/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_bias_packed
+219  2269632   9216      int8    1    32   9    32   /model.19/m.0/m/m.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+220  2478048   256       int8    1    1    1    256  /model.23/cv3.0/cv3.0.1/cv3.0.1.1/act/Mul_output_0_Mul_table
+221  1170080   216       int8    1    24   1    9    /model.23/cv3.0/cv3.0.2/Conv_output_0_Conv_bias_packed
+222  682432    1536      int8    1    24   1    64   /model.23/cv3.0/cv3.0.2/Conv_output_0_Conv_filter_reordered
+223  2488800   256       int8    1    1    1    256  /model.19/m.0/m/m.0/cv1/act/Mul_output_0_Mul_table
+224  2373680   288       int8    1    32   1    9    /model.19/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_bias_packed
+225  2184736   9216      int8    1    32   9    32   /model.19/m.0/m/m.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+226  2521824   256       int8    1    1    1    256  /model.19/m.0/m/m.0/cv2/act/Mul_output_0_Mul_table
+227  2527264   288       int8    1    32   1    9    /model.19/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_bias_packed
+228  2528960   9216      int8    1    32   9    32   /model.19/m.0/m/m.1/cv1/conv/Conv_output_0_Conv_filter_reordered
+229  2538176   256       int8    1    1    1    256  /model.19/m.0/m/m.1/cv1/act/Mul_output_0_Mul_table
+230  864944    288       int8    1    32   1    9    /model.19/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_bias_packed
+231  2382800   9216      int8    1    32   9    32   /model.19/m.0/m/m.1/cv2/conv/Conv_output_0_Conv_filter_reordered
+232  2339040   256       int8    1    1    1    256  /model.19/m.0/m/m.1/cv2/act/Mul_output_0_Mul_table
+233  686272    576       int8    1    64   1    9    /model.19/m.0/cv3/conv/Conv_output_0_Conv_bias_packed
+234  2542784   4096      int8    1    64   1    64   /model.19/m.0/cv3/conv/Conv_output_0_Conv_filter_reordered
+235  2547456   256       int8    1    1    1    256  /model.19/m.0/cv3/act/Mul_output_0_Mul_table
+236  2548544   1152      int8    1    128  1    9    /model.19/cv2/conv/Conv_output_0_Conv_bias_packed
+237  2549952   24576     int8    1    128  1    192  /model.19/cv2/conv/Conv_output_0_Conv_filter_reordered
+238  2574672   256       int8    1    1    1    256  /model.19/cv2/act/Mul_output_0_Mul_table
+239  2527808   1152      int8    1    128  1    9    /model.20/conv/Conv_output_0_Conv_bias_packed
+240  1501056   147456    int8    1    128  9    128  /model.20/conv/Conv_output_0_Conv_filter_reordered
+241  2574928   144       int8    1    16   1    9    /model.23/cv2.1/cv2.1.0/conv/Conv_output_0_Conv_bias_packed
+242  2238336   18432     int8    1    16   9    128  /model.23/cv2.1/cv2.1.0/conv/Conv_output_0_Conv_filter_reordered
+243  1656896   1152      int8    1    128  1    9    /model.23/cv3.1/cv3.1.0/cv3.1.0.0/conv/Conv_output_0_Conv_bias_packed
+244  2575072   1152      int8    1    128  3    3    /model.23/cv3.1/cv3.1.0/cv3.1.0.0/conv/Conv_output_0_Conv_filter_reordered
+245  2091952   144       int8    1    16   1    9    /model.23/cv4.1/cv4.1.0/conv/Conv_output_0_Conv_bias_packed
+246  2576480   18432     int8    1    16   9    128  /model.23/cv4.1/cv4.1.0/conv/Conv_output_0_Conv_filter_reordered
+247  2278848   256       int8    1    1    1    256  /model.20/act/Mul_output_0_Mul_table
+248  1870512   256       int8    1    1    1    256  /model.23/cv2.1/cv2.1.0/act/Mul_output_0_Mul_table
+249  2538432   256       int8    1    1    1    256  /model.23/cv3.1/cv3.1.0/cv3.1.0.0/act/Mul_output_0_Mul_table
+250  686848    256       int8    1    1    1    256  /model.23/cv4.1/cv4.1.0/act/Mul_output_0_Mul_table
+251  640416    144       int8    1    16   1    9    /model.23/cv2.1/cv2.1.1/conv/Conv_output_0_Conv_bias_packed
+252  2459264   2304      int8    1    16   9    16   /model.23/cv2.1/cv2.1.1/conv/Conv_output_0_Conv_filter_reordered
+253  1500480   576       int8    1    64   1    9    /model.23/cv3.1/cv3.1.0/cv3.1.0.1/conv/Conv_output_0_Conv_bias_packed
+254  2594912   8192      int8    1    64   1    128  /model.23/cv3.1/cv3.1.0/cv3.1.0.1/conv/Conv_output_0_Conv_filter_reordered
+255  2574528   144       int8    1    16   1    9    /model.23/cv4.1/cv4.1.1/conv/Conv_output_0_Conv_bias_packed
+256  1917824   2304      int8    1    16   9    16   /model.23/cv4.1/cv4.1.1/conv/Conv_output_0_Conv_filter_reordered
+257  495584    2304      int8    1    256  1    9    /model.22/cv1/conv/Conv_output_0_Conv_bias_packed
+258  397280    98304     int8    1    256  1    384  /model.22/cv1/conv/Conv_output_0_Conv_filter_reordered
+259  397024    256       int8    1    1    1    256  /model.23/cv2.1/cv2.1.1/act/Mul_output_0_Mul_table
+260  2373968   256       int8    1    1    1    256  /model.23/cv3.1/cv3.1.0/cv3.1.0.1/act/Mul_output_0_Mul_table
+261  880592    256       int8    1    1    1    256  /model.23/cv4.1/cv4.1.1/act/Mul_output_0_Mul_table
+262  2548288   256       int8    1    1    1    256  /model.22/cv1/act/Mul_output_0_Mul_table
+263  396976    36        int8    1    4    1    9    /model.23/cv2.1/cv2.1.2/Conv_output_0_Conv_bias_packed
+264  2374368   64        int8    1    4    1    16   /model.23/cv2.1/cv2.1.2/Conv_output_0_Conv_filter_reordered
+265  2547712   576       int8    1    64   1    9    /model.23/cv3.1/cv3.1.1/cv3.1.1.0/conv/Conv_output_0_Conv_bias_packed
+266  396400    576       int8    1    64   3    3    /model.23/cv3.1/cv3.1.1/cv3.1.1.0/conv/Conv_output_0_Conv_filter_reordered
+267  2488464   72        int8    1    8    1    9    /model.23/cv4_kpts.1/Conv_output_0_Conv_bias_packed
+268  379888    128       int8    1    8    1    16   /model.23/cv4_kpts.1/Conv_output_0_Conv_filter_reordered
+269  379056    576       int8    1    64   1    9    /model.22/m.0/m.0.0/cv1/conv/Conv_output_0_Conv_bias_packed
+270  305328    73728     int8    1    64   9    128  /model.22/m.0/m.0.0/cv1/conv/Conv_output_0_Conv_filter_reordered
+271  305072    256       int8    1    1    1    256  /model.23/cv3.1/cv3.1.1/cv3.1.1.0/act/Mul_output_0_Mul_table
+272  304496    576       int8    1    64   1    9    /model.23/cv3.1/cv3.1.1/cv3.1.1.1/conv/Conv_output_0_Conv_bias_packed
+273  300400    4096      int8    1    64   1    64   /model.23/cv3.1/cv3.1.1/cv3.1.1.1/conv/Conv_output_0_Conv_filter_reordered
+274  300144    256       int8    1    1    1    256  /model.22/m.0/m.0.0/cv1/act/Mul_output_0_Mul_table
+275  298992    1152      int8    1    128  1    9    /model.22/m.0/m.0.0/cv2/conv/Conv_output_0_Conv_bias_packed
+276  225264    73728     int8    1    128  9    64   /model.22/m.0/m.0.0/cv2/conv/Conv_output_0_Conv_filter_reordered
+277  2527552   256       int8    1    1    1    256  /model.23/cv3.1/cv3.1.1/cv3.1.1.1/act/Mul_output_0_Mul_table
+278  225040    216       int8    1    24   1    9    /model.23/cv3.1/cv3.1.2/Conv_output_0_Conv_bias_packed
+279  223504    1536      int8    1    24   1    64   /model.23/cv3.1/cv3.1.2/Conv_output_0_Conv_filter_reordered
+280  855728    256       int8    1    1    1    256  /model.22/m.0/m.0.0/cv2/act/Mul_output_0_Mul_table
+281  221200    2304      int8    1    256  1    9    /model.22/m.0/m.0.1/attn/qkv/conv/Conv_output_0_Conv_bias_packed
+282  1070288   32768     int8    1    256  1    128  /model.22/m.0/m.0.1/attn/qkv/conv/Conv_output_0_Conv_filter_reordered
+283  1914752   512       bf16    1    1    32   8    /model.22/m.0/m.0.1/attn/Mul_output_0_Mul/model.22/m.0/m.0.1/attn/Mul_output_0_Mul_slope_table_bf16
+284  855984    512       bf16    1    1    32   8    /model.22/m.0/m.0.1/attn/Mul_output_0_Mul/model.22/m.0/m.0.1/attn/Mul_output_0_Mul_slope_slope_table_bf16
+285  220048    1152      int8    1    128  1    9    /model.22/m.0/m.0.1/attn/pe/conv/Conv_output_0_Conv_bias_packed
+286  185296    1152      int8    1    128  3    3    /model.22/m.0/m.0.1/attn/pe/conv/Conv_output_0_Conv_filter_reordered
+287  1834448   512       bf16    1    1    32   8    /model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax/model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax_slope_table_bf16
+288  2429456   512       bf16    1    1    32   8    /model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax/model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax_slope_slope_table_bf16
+289  707760    512       bf16    1    1    32   8    /model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax/model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax_pow_table_bf16
+290  1194944   512       bf16    1    1    32   8    /model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax/model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax_pow_mantissa_table_bf16
+291  704768    1152      int8    1    128  1    9    /model.22/m.0/m.0.1/attn/proj/conv/Conv_output_0_Conv_bias_packed
+292  380016    16384     int8    1    128  1    128  /model.22/m.0/m.0.1/attn/proj/conv/Conv_output_0_Conv_filter_reordered
+293  182992    2304      int8    1    256  1    9    /model.22/m.0/m.0.1/ffn/ffn.0/conv/Conv_output_0_Conv_bias_packed
+294  2489056   32768     int8    1    256  1    128  /model.22/m.0/m.0.1/ffn/ffn.0/conv/Conv_output_0_Conv_filter_reordered
+295  182736    256       int8    1    1    1    256  /model.22/m.0/m.0.1/ffn/ffn.0/act/Mul_output_0_Mul_table
+296  181584    1152      int8    1    128  1    9    /model.22/m.0/m.0.1/ffn/ffn.1/conv/Conv_output_0_Conv_bias_packed
+297  2339936   32768     int8    1    128  1    256  /model.22/m.0/m.0.1/ffn/ffn.1/conv/Conv_output_0_Conv_filter_reordered
+298  179280    2304      int8    1    256  1    9    /model.22/cv2/conv/Conv_output_0_Conv_bias_packed
+299  80976     98304     int8    1    256  1    384  /model.22/cv2/conv/Conv_output_0_Conv_filter_reordered
+300  80720     256       int8    1    1    1    256  /model.22/cv2/act/Mul_output_0_Mul_table
+301  682288    144       int8    1    16   1    9    /model.23/cv2.2/cv2.2.0/conv/Conv_output_0_Conv_bias_packed
+302  2280944   36864     int8    1    16   9    256  /model.23/cv2.2/cv2.2.0/conv/Conv_output_0_Conv_filter_reordered
+303  2471040   2304      int8    1    256  1    9    /model.23/cv3.2/cv3.2.0/cv3.2.0.0/conv/Conv_output_0_Conv_bias_packed
+304  78416     2304      int8    1    256  3    3    /model.23/cv3.2/cv3.2.0/cv3.2.0.0/conv/Conv_output_0_Conv_filter_reordered
+305  78272     144       int8    1    16   1    9    /model.23/cv4.2/cv4.2.0/conv/Conv_output_0_Conv_bias_packed
+306  41408     36864     int8    1    16   9    256  /model.23/cv4.2/cv4.2.0/conv/Conv_output_0_Conv_filter_reordered
+307  39616     256       int8    1    1    1    256  /model.23/cv2.2/cv2.2.0/act/Mul_output_0_Mul_table
+308  2327456   256       int8    1    1    1    256  /model.23/cv3.2/cv3.2.0/cv3.2.0.0/act/Mul_output_0_Mul_table
+309  39360     256       int8    1    1    1    256  /model.23/cv4.2/cv4.2.0/act/Mul_output_0_Mul_table
+310  39216     144       int8    1    16   1    9    /model.23/cv2.2/cv2.2.1/conv/Conv_output_0_Conv_bias_packed
+311  2267328   2304      int8    1    16   9    16   /model.23/cv2.2/cv2.2.1/conv/Conv_output_0_Conv_filter_reordered
+312  38640     576       int8    1    64   1    9    /model.23/cv3.2/cv3.2.0/cv3.2.0.1/conv/Conv_output_0_Conv_bias_packed
+313  22256     16384     int8    1    64   1    256  /model.23/cv3.2/cv3.2.0/cv3.2.0.1/conv/Conv_output_0_Conv_filter_reordered
+314  584336    144       int8    1    16   1    9    /model.23/cv4.2/cv4.2.1/conv/Conv_output_0_Conv_bias_packed
+315  19952     2304      int8    1    16   9    16   /model.23/cv4.2/cv4.2.1/conv/Conv_output_0_Conv_filter_reordered
+316  379632    256       int8    1    1    1    256  /model.23/cv2.2/cv2.2.1/act/Mul_output_0_Mul_table
+317  547296    256       int8    1    1    1    256  /model.23/cv3.2/cv3.2.0/cv3.2.0.1/act/Mul_output_0_Mul_table
+318  19696     256       int8    1    1    1    256  /model.23/cv4.2/cv4.2.1/act/Mul_output_0_Mul_table
+319  548704    36        int8    1    4    1    9    /model.23/cv2.2/cv2.2.2/Conv_output_0_Conv_bias_packed
+320  19632     64        int8    1    4    1    16   /model.23/cv2.2/cv2.2.2/Conv_output_0_Conv_filter_reordered
+321  2257024   576       int8    1    64   1    9    /model.23/cv3.2/cv3.2.1/cv3.2.1.0/conv/Conv_output_0_Conv_bias_packed
+322  18800     576       int8    1    64   3    3    /model.23/cv3.2/cv3.2.1/cv3.2.1.0/conv/Conv_output_0_Conv_filter_reordered
+323  18720     72        int8    1    8    1    9    /model.23/cv4_kpts.2/Conv_output_0_Conv_bias_packed
+324  18592     128       int8    1    8    1    16   /model.23/cv4_kpts.2/Conv_output_0_Conv_filter_reordered
+325  18336     256       int8    1    1    1    256  /model.23/cv3.2/cv3.2.1/cv3.2.1.0/act/Mul_output_0_Mul_table
+326  2522080   576       int8    1    64   1    9    /model.23/cv3.2/cv3.2.1/cv3.2.1.1/conv/Conv_output_0_Conv_bias_packed
+327  1145360   4096      int8    1    64   1    64   /model.23/cv3.2/cv3.2.1/cv3.2.1.1/conv/Conv_output_0_Conv_filter_reordered
+328  186448    33600     bf16    1    2    8400 1    /model.23/Sub_output_0_Sub/model.23/Constant_15_output_0_1_bf16
+329  186448    33600     bf16    1    2    8400 1    /model.23/Add_1_output_0_Add/model.23/Constant_15_output_0_0_bf16
+330  186448    33600     bf16    1    1    2    8400 /model.23/Add_3_output_0_Add/model.23/Constant_24_output_0_bf16
+331  19376     256       int8    1    1    1    256  /model.23/cv3.2/cv3.2.1/cv3.2.1.1/act/Mul_output_0_Mul_table
+332  1536      16800     bf16    1    1    1    8400 /model.23/Mul_3_output_0_Mul/model.23/Constant_25_output_0_1_bf16
+333  2477824   216       int8    1    24   1    9    /model.23/cv3.2/cv3.2.2/Conv_output_0_Conv_bias_packed
+334  39872     1536      int8    1    24   1    64   /model.23/cv3.2/cv3.2.2/Conv_output_0_Conv_filter_reordered
+335  1024      512       bf16    1    1    32   8    /model.23/Div_1_output_0_Div/model.23/Div_1_output_0_Div_slope_table_bf16
+336  512       512       bf16    1    1    32   8    /model.23/Div_1_output_0_Div/model.23/Div_1_output_0_Div_slope_slope_table_bf16
+337  1536      16800     bf16    1    1    8400 1    /model.23/Mul_2_output_0_Mul/model.23/Constant_25_output_0_0_bf16
+338  2379296   512       bf16    1    1    32   8    /model.23/Sigmoid_output_0_Sigmoid/model.23/Sigmoid_output_0_Sigmoid_slope_table_bf16
+339  0         512       bf16    1    1    32   8    /model.23/Sigmoid_output_0_Sigmoid/model.23/Sigmoid_output_0_Sigmoid_slope_slope_table_bf16
+
+Program #0
+    batch_num   : 0
+    private_gmem_size: 1228800
+    shared_gmem_size: 2611200
+    inputs      : images
+    outputs     : output0_Concat_f32
+    routines    :
+     #00  cpu
+        inputs  : images
+        outputs : images/model.0/conv/Conv_output_0_Conv_si8
+        function: quant
+     #01  tpu
+        inputs  : images/model.0/conv/Conv_output_0_Conv_si8
+        outputs : output0_Concat_f32
+        section : subfunc_1
+
+    tensor_map  :
+        ID   OFFSET      TYPE  N    C    H    W    QSCALE     MEM     NAME
+        000  0           fp32  1    3    640  640  1.000000   io_mem  images
+        001  0           int8  1    3    640  640  0.007874   private images/model.0/conv/Conv_output_0_Conv_si8
+        002  819200      int8  1    32   160  160  0.364069   shared  /model.1/act/Mul_output_0_Mul
+        003  0           int8  1    32   160  160  0.226568   shared  /model.2/cv1/act/Mul_output_0_Mul
+        004  0           int8  1    16   160  160  0.226568   shared  /model.2/Split_output_0_Split
+        005  409600      int8  1    16   160  160  0.226568   shared  /model.2/Split_output_1_Split
+        006  1228800     int8  1    8    160  160  0.006532   shared  /model.2/m.0/cv1/act/Mul_output_0_Mul
+        007  819200      int8  1    16   160  160  0.222236   shared  /model.2/m.0/Add_output_0_Add
+        008  1228800     int8  1    64   80   80   0.040792   shared  /model.3/act/Mul_output_0_Mul
+        009  819200      int8  1    64   80   80   0.025942   shared  /model.4/cv1/act/Mul_output_0_Mul
+        010  819200      int8  1    32   80   80   0.025942   shared  /model.4/Split_output_0_Split
+        011  1024000     int8  1    32   80   80   0.025942   shared  /model.4/Split_output_1_Split
+        012  1228800     int8  1    16   80   80   0.027092   shared  /model.4/m.0/cv1/act/Mul_output_0_Mul
+        013  0           int8  1    128  80   80   0.022934   shared  /model.4/cv2/act/Mul_output_0_Mul
+        014  819200      int8  1    128  40   40   0.030023   shared  /model.6/cv1/act/Mul_output_0_Mul
+        015  819200      int8  1    64   40   40   0.030023   shared  /model.6/Split_output_0_Split
+        016  921600      int8  1    64   40   40   0.030023   shared  /model.6/Split_output_1_Split
+        017  1228800     int8  1    32   40   40   0.057639   shared  /model.6/m.0/cv2/conv/Conv_output_0_Conv
+        018  1280000     int8  1    32   40   40   0.019877   shared  /model.6/m.0/cv1/act/Mul_output_0_Mul
+        019  1075200     int8  1    32   40   40   0.072790   shared  /model.6/m.0/cv2/act/Mul_output_0_Mul
+        020  1177600     int8  1    32   40   40   0.032852   shared  /model.6/m.0/m/m.0/Add_output_0_Add
+        021  1126400     int8  1    32   40   40   0.089114   shared  /model.6/m.0/m/m.1/cv2/conv/Conv_output_0_Conv
+        022  1024000     int8  1    32   40   40   0.072790   shared  /model.6/m.0/m/m.1/Add_output_0_Add
+        023  1024000     int8  1    64   40   40   0.072790   shared  /model.6/m.0/Concat_output_0_Concat
+        024  2099200     int8  1    128  40   40   0.023052   shared  /model.6/cv2/act/Mul_output_0_Mul
+        025  921600      int8  1    256  20   20   0.053104   shared  /model.7/conv/Conv_output_0_Conv
+        026  819200      int8  1    256  20   20   0.038327   shared  /model.8/cv1/act/Mul_output_0_Mul
+        027  819200      int8  1    128  20   20   0.038327   shared  /model.8/Split_output_0_Split
+        028  870400      int8  1    128  20   20   0.038327   shared  /model.8/Split_output_1_Split
+        029  1024000     int8  1    64   20   20   0.100321   shared  /model.8/m.0/cv2/act/Mul_output_0_Mul
+        030  1075200     int8  1    64   20   20   0.079474   shared  /model.8/m.0/m/m.0/Add_output_0_Add
+        031  1049600     int8  1    64   20   20   0.092068   shared  /model.8/m.0/m/m.1/cv1/conv/Conv_output_0_Conv
+        032  921600      int8  1    256  20   20   0.038617   shared  /model.8/cv2/act/Mul_output_0_Mul
+        033  1177600     int8  1    128  20   20   0.068351   shared  /model.9/cv1/conv/Conv_output_0_Conv
+        034  1024000     int8  1    128  20   20   0.068351   shared  /model.9/m/MaxPool_output_0_MaxPool
+        035  1126400     int8  1    128  20   20   0.068351   shared  /model.9/m_1/MaxPool_output_0_MaxPool
+        036  1075200     int8  1    128  20   20   0.068351   shared  /model.9/m_2/MaxPool_output_0_MaxPool
+        037  819200      int8  1    256  20   20   0.106123   shared  /model.9/cv2/conv/Conv_output_0_Conv
+        038  2304000     int8  1    256  20   20   0.046888   shared  /model.9/Add_output_0_Add
+        039  2508800     int8  1    256  20   20   0.088489   shared  /model.10/cv1/act/Mul_output_0_Mul
+        040  2508800     int8  1    128  20   20   0.088489   shared  /model.10/Split_output_0_Split
+        041  2560000     int8  1    128  20   20   0.088489   shared  /model.10/Split_output_1_Split
+        042  1024000     int8  1    256  20   20   0.080401   shared  /model.10/m/m.0/attn/qkv/conv/Conv_output_0_Conv
+        043  1024000     int8  1    2    128  400  0.080401   shared  /model.10/m/m.0/attn/Reshape_output_0_Reshape
+        044  819200      bf16  1    2    128  400  1.000000   shared  /model.10/m/m.0/attn/Reshape_output_0_Reshape/model.10/m/m.0/attn/Split_output_0_Split_bf16
+        045  2304000     bf16  1    2    32   400  1.000000   shared  /model.10/m/m.0/attn/Split_output_0_Split
+        046  1510400     bf16  1    2    32   400  1.000000   shared  /model.10/m/m.0/attn/Split_output_1_Split
+        047  2406400     bf16  1    2    64   400  1.000000   shared  /model.10/m/m.0/attn/Split_output_2_Split
+        048  2355200     bf16  1    2    32   400  1.000000   shared  /model.10/m/m.0/attn/Mul_output_0_Mul
+        049  2406400     bf16  1    128  20   20   1.000000   shared  /model.10/m/m.0/attn/Reshape_2_output_0_Reshape
+        050  2304000     int8  1    128  20   20   0.080401   shared  /model.10/m/m.0/attn/Reshape_2_output_0_Reshape/model.10/m/m.0/attn/pe/conv/Conv_output_0_Conv_si8
+        051  1459200     bf16  1    2    400  32   1.000000   shared  /model.10/m/m.0/attn/Transpose_output_0_Transpose
+        052  819200      int8  1    128  20   20   0.087957   shared  /model.10/m/m.0/attn/pe/conv/Conv_output_0_Conv
+        053  2304000     bf16  1    128  20   20   1.000000   shared  /model.10/m/m.0/attn/pe/conv/Conv_output_0_Conv/model.10/m/m.0/attn/Add_output_0_Add_bf16
+        054  819200      bf16  1    2    400  400  1.000000   shared  /model.10/m/m.0/attn/MatMul_output_0_MatMul
+        055  1459200     bf16  1    2    400  400  1.000000   shared  /model.10/m/m.0/attn/Softmax_output_0_Softmax
+        056  819200      bf16  1    2    400  400  1.000000   shared  /model.10/m/m.0/attn/Transpose_1_output_0_Transpose
+        057  1459200     bf16  1    2    64   400  1.000000   shared  /model.10/m/m.0/attn/MatMul_1_output_0_MatMul
+        058  1459200     bf16  1    128  20   20   1.000000   shared  /model.10/m/m.0/attn/Reshape_1_output_0_Reshape
+        059  1996800     int8  1    256  20   20   0.066153   shared  /model.10/cv2/act/Mul_output_0_Mul
+        060  819200      int8  1    128  40   40   0.039352   shared  /model.13/cv1/act/Mul_output_0_Mul
+        061  819200      int8  1    64   40   40   0.039352   shared  /model.13/Split_output_0_Split
+        062  921600      int8  1    64   40   40   0.039352   shared  /model.13/Split_output_1_Split
+        063  1228800     int8  1    32   40   40   0.076712   shared  /model.13/m.0/cv2/conv/Conv_output_0_Conv
+        064  1280000     int8  1    32   40   40   0.025736   shared  /model.13/m.0/cv1/act/Mul_output_0_Mul
+        065  1075200     int8  1    32   40   40   0.087928   shared  /model.13/m.0/cv2/act/Mul_output_0_Mul
+        066  1177600     int8  1    32   40   40   0.061868   shared  /model.13/m.0/m/m.0/Add_output_0_Add
+        067  1126400     int8  1    32   40   40   0.108276   shared  /model.13/m.0/m/m.1/cv2/conv/Conv_output_0_Conv
+        068  1024000     int8  1    32   40   40   0.087928   shared  /model.13/m.0/m/m.1/Add_output_0_Add
+        069  1024000     int8  1    64   40   40   0.087928   shared  /model.13/m.0/Concat_output_0_Concat
+        070  1228800     int8  1    128  40   40   0.033792   shared  /model.13/cv2/act/Mul_output_0_Mul
+        071  819200      int8  1    64   80   80   0.039226   shared  /model.16/cv1/act/Mul_output_0_Mul
+        072  819200      int8  1    32   80   80   0.039226   shared  /model.16/Split_output_0_Split
+        073  1024000     int8  1    32   80   80   0.039226   shared  /model.16/Split_output_1_Split
+        074  204800      int8  1    16   80   80   0.008321   shared  /model.16/m.0/cv1/act/Mul_output_0_Mul
+        075  716800      int8  1    16   80   80   0.143255   shared  /model.16/m.0/cv2/act/Mul_output_0_Mul
+        076  0           int8  1    16   80   80   0.027165   shared  /model.16/m.0/m/m.0/cv1/act/Mul_output_0_Mul
+        077  102400      int8  1    16   80   80   0.044926   shared  /model.16/m.0/m/m.0/Add_output_0_Add
+        078  0           int8  1    16   80   80   0.035466   shared  /model.16/m.0/m/m.1/cv1/act/Mul_output_0_Mul
+        079  614400      int8  1    16   80   80   0.143255   shared  /model.16/m.0/m/m.1/Add_output_0_Add
+        080  614400      int8  1    32   80   80   0.143255   shared  /model.16/m.0/Concat_output_0_Concat
+        081  409600      int8  1    32   80   80   0.054039   shared  /model.16/m.0/cv3/act/Mul_output_0_Mul
+        082  0           int8  1    64   80   80   0.044977   shared  /model.16/cv2/act/Mul_output_0_Mul
+        083  1433600     int8  1    64   40   40   0.054362   shared  /model.17/conv/Conv_output_0_Conv
+        084  819200      int8  1    16   80   80   0.100549   shared  /model.23/cv2.0/cv2.0.0/conv/Conv_output_0_Conv
+        085  409600      int8  1    64   80   80   0.055160   shared  /model.23/cv3.0/cv3.0.0/cv3.0.0.0/conv/Conv_output_0_Conv
+        086  1740800     int8  1    16   80   80   0.064612   shared  /model.23/cv4.0/cv4.0.0/conv/Conv_output_0_Conv
+        087  1638400     int8  1    64   40   40   0.039285   shared  /model.17/act/Mul_output_0_Mul
+        088  1126400     int8  1    16   80   80   0.084732   shared  /model.23/cv2.0/cv2.0.0/act/Mul_output_0_Mul
+        089  0           int8  1    64   80   80   0.053086   shared  /model.23/cv3.0/cv3.0.0/cv3.0.0.0/act/Mul_output_0_Mul
+        090  1433600     int8  1    16   80   80   0.045146   shared  /model.23/cv4.0/cv4.0.0/act/Mul_output_0_Mul
+        091  819200      int8  1    192  40   40   0.044299   shared  /model.18/Concat_output_0_Concat
+        092  1536000     int8  1    16   80   80   0.165831   shared  /model.23/cv2.0/cv2.0.1/conv/Conv_output_0_Conv
+        093  409600      int8  1    64   80   80   0.056303   shared  /model.23/cv3.0/cv3.0.0/cv3.0.0.1/conv/Conv_output_0_Conv
+        094  1331200     int8  1    16   80   80   0.067387   shared  /model.23/cv4.0/cv4.0.1/conv/Conv_output_0_Conv
+        095  1126400     int8  1    128  40   40   0.074667   shared  /model.19/cv1/conv/Conv_output_0_Conv
+        096  1024000     int8  1    16   80   80   0.101970   shared  /model.23/cv2.0/cv2.0.1/act/Mul_output_0_Mul
+        097  0           int8  1    64   80   80   0.038963   shared  /model.23/cv3.0/cv3.0.0/cv3.0.0.1/act/Mul_output_0_Mul
+        098  819200      int8  1    128  40   40   0.055401   shared  /model.19/cv1/act/Mul_output_0_Mul
+        099  2099200     int8  1    4    80   80   0.250634   shared  /model.23/cv2.0/cv2.0.2/Conv_output_0_Conv
+        100  409600      int8  1    64   80   80   0.059227   shared  /model.23/cv3.0/cv3.0.1/cv3.0.1.0/conv/Conv_output_0_Conv
+        101  1433600     int8  1    8    80   80   0.063155   shared  /model.23/cv4_kpts.0/Conv_output_0_Conv
+        102  819200      int8  1    64   40   40   0.055401   shared  /model.19/Split_output_0_Split
+        103  921600      int8  1    64   40   40   0.055401   shared  /model.19/Split_output_1_Split
+        104  2099200     int8  1    4    6400 1    0.250634   shared  /model.23/Reshape_output_0_Reshape
+        105  2124800     bf16  1    4    6400 1    1.000000   shared  /model.23/Reshape_output_0_Reshape/model.23/Concat_output_0_Concat_bf16
+        106  1433600     int8  1    8    6400 1    0.063155   shared  /model.23/Reshape_6_output_0_Reshape
+        107  1894400     bf16  1    8    6400 1    1.000000   shared  /model.23/Reshape_6_output_0_Reshape/model.23/Concat_2_output_0_Concat_bf16
+        108  1638400     int8  1    32   40   40   0.094077   shared  /model.19/m.0/cv2/conv/Conv_output_0_Conv
+        109  0           int8  1    64   80   80   0.127699   shared  /model.23/cv3.0/cv3.0.1/cv3.0.1.1/conv/Conv_output_0_Conv
+        110  1689600     int8  1    32   40   40   0.021928   shared  /model.19/m.0/cv1/act/Mul_output_0_Mul
+        111  1228800     int8  1    32   40   40   0.146312   shared  /model.19/m.0/cv2/act/Mul_output_0_Mul
+        112  1024000     int8  1    24   80   80   0.295307   shared  /model.23/cv3.0/cv3.0.2/Conv_output_0_Conv
+        113  1587200     int8  1    32   40   40   0.030689   shared  /model.19/m.0/m/m.0/cv1/act/Mul_output_0_Mul
+        114  1024000     int8  1    24   6400 1    0.295307   shared  /model.23/Reshape_3_output_0_Reshape
+        115  1280000     bf16  1    24   6400 1    1.000000   shared  /model.23/Reshape_3_output_0_Reshape/model.23/Concat_1_output_0_Concat_bf16
+        116  1024000     int8  1    32   40   40   0.043628   shared  /model.19/m.0/m/m.0/Add_output_0_Add
+        117  1075200     int8  1    32   40   40   0.251818   shared  /model.19/m.0/m/m.1/cv2/conv/Conv_output_0_Conv
+        118  1177600     int8  1    32   40   40   0.146312   shared  /model.19/m.0/m/m.1/Add_output_0_Add
+        119  1177600     int8  1    64   40   40   0.146312   shared  /model.19/m.0/Concat_output_0_Concat
+        120  204800      int8  1    128  40   40   0.054853   shared  /model.19/cv2/act/Mul_output_0_Mul
+        121  1587200     int8  1    128  20   20   0.074133   shared  /model.20/conv/Conv_output_0_Conv
+        122  1689600     int8  1    128  20   20   0.064864   shared  /model.20/act/Mul_output_0_Mul
+        123  409600      int8  1    16   40   40   0.096289   shared  /model.23/cv2.1/cv2.1.0/act/Mul_output_0_Mul
+        124  0           int8  1    128  40   40   0.050892   shared  /model.23/cv3.1/cv3.1.0/cv3.1.0.0/act/Mul_output_0_Mul
+        125  1766400     int8  1    16   40   40   0.035821   shared  /model.23/cv4.1/cv4.1.0/act/Mul_output_0_Mul
+        126  2099200     int8  1    16   40   40   0.066263   shared  /model.23/cv2.1/cv2.1.1/act/Mul_output_0_Mul
+        127  1587200     int8  1    64   40   40   0.044928   shared  /model.23/cv3.1/cv3.1.0/cv3.1.0.1/act/Mul_output_0_Mul
+        128  1740800     int8  1    16   40   40   0.064698   shared  /model.23/cv4.1/cv4.1.1/act/Mul_output_0_Mul
+        129  1792000     int8  1    256  20   20   0.054907   shared  /model.22/cv1/act/Mul_output_0_Mul
+        130  1779200     int8  1    4    40   40   0.250634   shared  /model.23/cv2.1/cv2.1.2/Conv_output_0_Conv
+        131  0           int8  1    64   40   40   0.090504   shared  /model.23/cv3.1/cv3.1.1/cv3.1.1.0/conv/Conv_output_0_Conv
+        132  1766400     int8  1    8    40   40   0.063155   shared  /model.23/cv4_kpts.1/Conv_output_0_Conv
+        133  1792000     int8  1    128  20   20   0.054907   shared  /model.22/Split_output_0_Split
+        134  1843200     int8  1    128  20   20   0.054907   shared  /model.22/Split_output_1_Split
+        135  1779200     int8  1    4    1600 1    0.250634   shared  /model.23/Reshape_1_output_0_Reshape
+        136  2201600     bf16  1    4    1600 1    1.000000   shared  /model.23/Reshape_1_output_0_Reshape/model.23/Concat_output_0_Concat_bf16
+        137  1766400     int8  1    8    1600 1    0.063155   shared  /model.23/Reshape_7_output_0_Reshape
+        138  2176000     bf16  1    8    1600 1    1.000000   shared  /model.23/Reshape_7_output_0_Reshape/model.23/Concat_2_output_0_Concat_bf16
+        139  1996800     int8  1    64   20   20   0.125707   shared  /model.22/m.0/m.0.0/cv1/conv/Conv_output_0_Conv
+        140  2073600     int8  1    24   40   40   0.295307   shared  /model.23/cv3.1/cv3.1.2/Conv_output_0_Conv
+        141  102400      int8  1    128  20   20   0.088535   shared  /model.22/m.0/m.0.0/cv2/act/Mul_output_0_Mul
+        142  2073600     int8  1    24   1600 1    0.295307   shared  /model.23/Reshape_4_output_0_Reshape
+        143  1996800     bf16  1    24   1600 1    1.000000   shared  /model.23/Reshape_4_output_0_Reshape/model.23/Concat_1_output_0_Concat_bf16
+        144  2073600     int8  1    128  20   20   0.107471   shared  /model.22/m.0/m.0.0/Add_output_0_Add
+        145  204800      int8  1    256  20   20   0.093358   shared  /model.22/m.0/m.0.1/attn/qkv/conv/Conv_output_0_Conv
+        146  204800      int8  1    2    128  400  0.093358   shared  /model.22/m.0/m.0.1/attn/Reshape_output_0_Reshape
+        147  0           bf16  1    2    128  400  1.000000   shared  /model.22/m.0/m.0.1/attn/Reshape_output_0_Reshape/model.22/m.0/m.0.1/attn/Split_output_0_Split_bf16
+        148  1587200     bf16  1    2    32   400  1.000000   shared  /model.22/m.0/m.0.1/attn/Split_output_0_Split
+        149  691200      bf16  1    2    32   400  1.000000   shared  /model.22/m.0/m.0.1/attn/Split_output_1_Split
+        150  1689600     bf16  1    2    64   400  1.000000   shared  /model.22/m.0/m.0.1/attn/Split_output_2_Split
+        151  1638400     bf16  1    2    32   400  1.000000   shared  /model.22/m.0/m.0.1/attn/Mul_output_0_Mul
+        152  1689600     bf16  1    128  20   20   1.000000   shared  /model.22/m.0/m.0.1/attn/Reshape_2_output_0_Reshape
+        153  1587200     int8  1    128  20   20   0.093358   shared  /model.22/m.0/m.0.1/attn/Reshape_2_output_0_Reshape/model.22/m.0/m.0.1/attn/pe/conv/Conv_output_0_Conv_si8
+        154  640000      bf16  1    2    400  32   1.000000   shared  /model.22/m.0/m.0.1/attn/Transpose_output_0_Transpose
+        155  0           int8  1    128  20   20   0.114755   shared  /model.22/m.0/m.0.1/attn/pe/conv/Conv_output_0_Conv
+        156  1587200     bf16  1    128  20   20   1.000000   shared  /model.22/m.0/m.0.1/attn/pe/conv/Conv_output_0_Conv/model.22/m.0/m.0.1/attn/Add_output_0_Add_bf16
+        157  0           bf16  1    2    400  400  1.000000   shared  /model.22/m.0/m.0.1/attn/MatMul_output_0_MatMul
+        158  640000      bf16  1    2    400  400  1.000000   shared  /model.22/m.0/m.0.1/attn/Softmax_output_0_Softmax
+        159  0           bf16  1    2    400  400  1.000000   shared  /model.22/m.0/m.0.1/attn/Transpose_1_output_0_Transpose
+        160  640000      bf16  1    2    64   400  1.000000   shared  /model.22/m.0/m.0.1/attn/MatMul_1_output_0_MatMul
+        161  640000      bf16  1    128  20   20   1.000000   shared  /model.22/m.0/m.0.1/attn/Reshape_1_output_0_Reshape
+        162  0           int8  1    128  20   20   0.081407   shared  /model.22/m.0/m.0.1/attn/proj/conv/Conv_output_0_Conv
+        163  102400      int8  1    256  20   20   0.293109   shared  /model.22/cv2/conv/Conv_output_0_Conv
+        164  0           int8  1    256  20   20   0.139861   shared  /model.23/cv3.2/cv3.2.0/cv3.2.0.0/conv/Conv_output_0_Conv
+        165  2080000     int8  1    16   20   20   0.099457   shared  /model.23/cv4.2/cv4.2.0/conv/Conv_output_0_Conv
+        166  2073600     int8  1    16   20   20   0.208303   shared  /model.23/cv2.2/cv2.2.0/act/Mul_output_0_Mul
+        167  1587200     int8  1    16   20   20   0.307788   shared  /model.23/cv2.2/cv2.2.1/conv/Conv_output_0_Conv
+        168  2099200     int8  1    64   20   20   0.130077   shared  /model.23/cv3.2/cv3.2.0/cv3.2.0.1/conv/Conv_output_0_Conv
+        169  1593600     int8  1    16   20   20   0.081331   shared  /model.23/cv4.2/cv4.2.1/conv/Conv_output_0_Conv
+        170  1603200     int8  1    4    20   20   0.250634   shared  /model.23/cv2.2/cv2.2.2/Conv_output_0_Conv
+        171  2073600     int8  1    64   20   20   0.103011   shared  /model.23/cv3.2/cv3.2.1/cv3.2.1.0/conv/Conv_output_0_Conv
+        172  1600000     int8  1    8    20   20   0.063155   shared  /model.23/cv4_kpts.2/Conv_output_0_Conv
+        173  1603200     int8  1    4    400  1    0.250634   shared  /model.23/Reshape_2_output_0_Reshape
+        174  2105600     bf16  1    4    400  1    1.000000   shared  /model.23/Reshape_2_output_0_Reshape/model.23/Concat_output_0_Concat_bf16
+        175  1600000     int8  1    8    400  1    0.063155   shared  /model.23/Reshape_8_output_0_Reshape
+        176  2099200     bf16  1    8    400  1    1.000000   shared  /model.23/Reshape_8_output_0_Reshape/model.23/Concat_2_output_0_Concat_bf16
+        177  1587200     bf16  1    4    8400 1    1.000000   shared  /model.23/Concat_output_0_Concat
+        178  1806400     int8  1    64   20   20   0.055167   shared  /model.23/cv3.2/cv3.2.1/cv3.2.1.0/act/Mul_output_0_Mul
+        179  0           bf16  1    8    8400 1    1.000000   shared  /model.23/Concat_2_output_0_Concat
+        180  1780800     int8  1    64   20   20   0.089244   shared  /model.23/cv3.2/cv3.2.1/cv3.2.1.1/conv/Conv_output_0_Conv
+        181  0           bf16  1    4    2    8400 1.000000   shared  /model.23/Slice_2_output_0_Reshape
+        182  1587200     bf16  1    2    8400 1    1.000000   shared  /model.23/Slice_output_0_Slice
+        183  1620800     bf16  1    2    8400 1    1.000000   shared  /model.23/Slice_1_output_0_Slice
+        184  1688000     bf16  1    2    8400 1    1.000000   shared  /model.23/Sub_output_0_Sub
+        185  1721600     bf16  1    2    8400 1    1.000000   shared  /model.23/Add_1_output_0_Add
+        186  1142400     bf16  1    4    2    8400 1.000000   shared  /model.23/Add_3_output_0_Add
+        187  1755200     int8  1    64   20   20   0.077555   shared  /model.23/cv3.2/cv3.2.1/cv3.2.1.1/act/Mul_output_0_Mul
+        188  1654400     bf16  1    2    8400 1    1.000000   shared  /model.23/Add_2_output_0_Add
+        189  1620800     bf16  1    2    8400 1    1.000000   shared  /model.23/Sub_1_output_0_Sub
+        190  1008000     bf16  1    4    2    8400 1.000000   shared  /model.23/Mul_3_output_0_Mul
+        191  1688000     int8  1    24   20   20   0.295307   shared  /model.23/cv3.2/cv3.2.2/Conv_output_0_Conv
+        192  1587200     bf16  1    2    8400 1    1.000000   shared  /model.23/Div_1_output_0_Div
+        193  1008000     bf16  1    8    8400 1    1.000000   shared  /model.23/Reshape_10_output_0_Reshape
+        194  1688000     int8  1    24   400  1    0.295307   shared  /model.23/Reshape_5_output_0_Reshape
+        195  1142400     bf16  1    24   400  1    1.000000   shared  /model.23/Reshape_5_output_0_Reshape/model.23/Concat_1_output_0_Concat_bf16
+        196  1587200     bf16  1    4    8400 1    1.000000   shared  /model.23/Concat_3_output_0_Concat
+        197  0           bf16  1    24   8400 1    1.000000   shared  /model.23/Concat_1_output_0_Concat
+        198  1142400     bf16  1    4    8400 1    1.000000   shared  /model.23/Mul_2_output_0_Mul
+        199  604800      bf16  1    24   8400 1    1.000000   shared  /model.23/Sigmoid_output_0_Sigmoid
+        200  0           bf16  1    36   8400 1    1.000000   shared  output0_Concat
+        201  0           fp32  1    36   8400 1    1.000000   io_mem  output0_Concat_f32
